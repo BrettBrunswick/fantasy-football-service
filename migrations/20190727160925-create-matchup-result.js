@@ -1,14 +1,22 @@
 'use strict';
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable('Matchups', {
+    return queryInterface.createTable('MatchupResults', {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      homeTeamId: {
+      matchupId: {
+        type: Sequelize.INTEGER,
+        references: {
+          model: 'Matchups',
+          key: 'id',
+          allowNull: false
+        }
+      },
+      teamId: {
         type: Sequelize.INTEGER,
         references: {
           model: 'Teams',
@@ -16,29 +24,11 @@ module.exports = {
           allowNull: false
         }
       },
-      awayTeamId: {
-        type: Sequelize.INTEGER,
-        references: {
-          model: 'Teams',
-          key: 'id',
-          allowNull: false
-        }
+      score: {
+        type: Sequelize.DECIMAL
       },
-      weekId: {
-        type: Sequelize.INTEGER,
-        references: {
-          model: 'Weeks',
-          key: 'id',
-          allowNull: false
-        }
-      },
-      matchupTypeId: {
-        type: Sequelize.INTEGER,
-        references: {
-          model: 'MatchupTypes',
-          key: 'id',
-          allowNull: false
-        }
+      won: {
+        type: Sequelize.BOOLEAN
       },
       createdAt: {
         allowNull: false,
@@ -51,6 +41,6 @@ module.exports = {
     });
   },
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable('Matchups');
+    return queryInterface.dropTable('MatchupResults');
   }
 };
