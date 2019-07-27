@@ -38,6 +38,14 @@ module.exports = {
           allowNull: true
         }
       },
+      weekId: {
+        type: Sequelize.INTEGER,
+        references: {
+          model: 'Weeks',
+          key: 'id',
+          allowNull: false
+        }
+      },
       matchupTypeId: {
         type: Sequelize.INTEGER,
         references: {
