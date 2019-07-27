@@ -20,22 +20,7 @@ module.exports = {
           updatedAt: new Date()
         },
         {
-          name: '3rd Place Game',
-          createdAt: new Date(),
-          updatedAt: new Date()
-        },
-        {
-          name: 'Semifinal Consolation',
-          createdAt: new Date(),
-          updatedAt: new Date()
-        },
-        {
-          name: '5th Place Game',
-          createdAt: new Date(),
-          updatedAt: new Date()
-        },
-        {
-          name: '7th Place Game',
+          name: 'Consolation',
           createdAt: new Date(),
           updatedAt: new Date()
         },
