@@ -1,0 +1,22 @@
+{
+  "name": "fantasy-football-service",
+  "version": "1.0.0",
+  "description": "A node.js application integrated with Slack that notifies league members with weekly updates and responds to requests.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Brett Brunswick",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.12.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.10.3",
+    "sequelize-cli": "^5.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
