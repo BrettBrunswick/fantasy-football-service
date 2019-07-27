@@ -8,7 +8,7 @@ module.exports = (sequelize, DataTypes) => {
     Matchup.hasOne(models.Team, {as: 'homeTeamId'});
     Matchup.hasOne(models.Team, {as: 'awayTeamId'});
     Matchup.hasOne(models.Team, {as: 'winningTeamId'});
-    Matchup.belongsTo(models.MatchupType);
+    Matchup.hasOne(models.MatchupType);
     Matchup.belongsTo(models.Week);
   };
   return Matchup;
