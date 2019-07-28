@@ -4,11 +4,9 @@ module.exports = (sequelize, DataTypes) => {
 
   }, {});
   Matchup.associate = function(models) {
-    Matchup.hasOne(models.Team, {as: 'homeTeamId'});
-    Matchup.hasOne(models.Team, {as: 'awayTeamId'});
-    Matchup.hasOne(models.MatchupType);
-    Matchup.belongsTo(models.Week);
-    Matchup.hasMany(models.MatchupResult);
+    Matchup.belongsTo(models.Team, {as: 'HomeTeam'});
+    Matchup.belongsTo(models.Team, {as: 'AwayTeam'});
+    Matchup.belongsTo(models.MatchupType);
   };
   return Matchup;
 };

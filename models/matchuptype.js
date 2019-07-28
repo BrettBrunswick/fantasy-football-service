@@ -4,7 +4,7 @@ module.exports = (sequelize, DataTypes) => {
     name: DataTypes.STRING
   }, {});
   MatchupType.associate = function(models) {
-    MatchupType.belongsTo(models.Matchup);
+    
   };
   return MatchupType;
 };

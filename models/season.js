@@ -5,7 +5,7 @@ module.exports = (sequelize, DataTypes) => {
     yahooLeagueId: DataTypes.INTEGER
   }, {});
   Season.associate = function(models) {
-    Season.hasMany(models.Week);
+    
   };
   return Season;
 };

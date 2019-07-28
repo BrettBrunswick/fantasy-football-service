@@ -91,85 +91,85 @@ module.exports = {
         [
           {
             name: 'Brunswick Modzzz',
-            managerId: managerIds[0].id,
+            ManagerId: managerIds[0].id,
             createdAt: new Date(),
             updatedAt: new Date()
           },
           {
             name: 'Bye Week',
-            managerId: managerIds[1].id,
+            ManagerId: managerIds[1].id,
             createdAt: new Date(),
             updatedAt: new Date()
           },
           {
             name: 'Dalton Dynasty',
-            managerId: managerIds[2].id,
+            ManagerId: managerIds[2].id,
             createdAt: new Date(),
             updatedAt: new Date()
           },
           {
             name: 'Dubstep Brett',
-            managerId: managerIds[3].id,
+            ManagerId: managerIds[3].id,
             createdAt: new Date(),
             updatedAt: new Date()
           },
           {
             name: 'I Wentz Off On You',
-            managerId: managerIds[4].id,
+            ManagerId: managerIds[4].id,
             createdAt: new Date(),
             updatedAt: new Date()
           },
           {
             name: 'Joey Mixon\'s Jabby\'s',
-            managerId: managerIds[5].id,
+            ManagerId: managerIds[5].id,
             createdAt: new Date(),
             updatedAt: new Date()
           },
           {
             name: 'Michael Havetree',
-            managerId: managerIds[6].id,
+            ManagerId: managerIds[6].id,
             createdAt: new Date(),
             updatedAt: new Date()
           },
           {
             name: 'Nick\'s Team',
-            managerId: managerIds[7].id,
+            ManagerId: managerIds[7].id,
             createdAt: new Date(),
             updatedAt: new Date()
           },
           {
             name: '🅱️urfict Players',
-            managerId: managerIds[8].id,
+            ManagerId: managerIds[8].id,
             createdAt: new Date(),
             updatedAt: new Date()
           },
           {
             name: 'Christian McHavefrey',
-            managerId: managerIds[9].id,
+            ManagerId: managerIds[9].id,
             createdAt: new Date(),
             updatedAt: new Date()
           },
           {
             name: 'Skip Obriens 💩Takes',
-            managerId: managerIds[10].id,
+            ManagerId: managerIds[10].id,
             createdAt: new Date(),
             updatedAt: new Date()
           },
           {
             name: 'Pacmans Punches',
-            managerId: managerIds[11].id,
+            ManagerId: managerIds[11].id,
             createdAt: new Date(),
             updatedAt: new Date()
           },
           {
             name: 'Brandon\'s Bong Rips',
-            managerId: managerIds[12].id,
+            ManagerId: managerIds[12].id,
             createdAt: new Date(),
             updatedAt: new Date()
           },
           {
             name: 'Kegin\'s Team',
-            managerId: managerIds[13].id,
+            ManagerId: managerIds[13].id,
             createdAt: new Date(),
             updatedAt: new Date()
           },
