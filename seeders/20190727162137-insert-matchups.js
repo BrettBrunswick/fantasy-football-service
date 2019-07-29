@@ -377,7 +377,7 @@ module.exports = {
             updatedAt: new Date()
           },
           {
-            HomeTeamId: joeyTeamId,
+            HomeTeamId: johnTeamId,
             AwayTeamId: calebTeamId,
             WeekId: weekIds[8].id,
             MatchupTypeId: 1,
