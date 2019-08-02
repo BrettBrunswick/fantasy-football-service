@@ -1,0 +1,44 @@
+[
+	{
+		"type": "divider"
+	},
+	{
+		"type": "section",
+		"text": {
+			"type": "mrkdwn",
+			"text": "*Week 12* :football:"
+		}
+	},
+	{
+		"type": "context",
+		"elements": [
+			{
+				"type": "mrkdwn",
+				"text": "Regular Season"
+			}
+		]
+	},
+	{
+		"type": "divider"
+	},
+	{
+		"type": "section",
+		"text": {
+			"type": "mrkdwn",
+			"text": "Hello, BTown Boys! Who is ready for some fantasy football!? Let's take a look at this week's matchups."
+		}
+	},
+	{
+		"type": "divider"
+	},
+	{
+		"type": "section",
+		"text": {
+			"type": "mrkdwn",
+			"text": "*_Dalton Dynasty_* vs. *_Kegin's Team_*\n`Lifetime Record:` *5-1* in favor of _Dalton Dynasty_.\n`Lifetime Score:` *402-200* in favor of _Dalton Dynasty_.\n`Last Matchup:` *201-200* in favor of _Dalton Dynasty_.\n\n _Dalton Dynasty_ `league-wide streak:` *W3*\n_Kegin's Team_ `league-wide streak:` *L3*"
+		}
+	},
+	{
+		"type": "divider"
+	}
+]
