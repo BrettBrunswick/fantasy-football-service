@@ -136,6 +136,10 @@ class MatchupsRepository {
               {
                 model: models.MatchupResult,
                 attributes: ['TeamId', 'won', 'score'],
+                include:[{
+                  model: models.Team,
+                  attributes: ['name']
+                }]
               }
             ],
             order: [ 

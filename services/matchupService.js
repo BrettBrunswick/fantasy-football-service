@@ -29,6 +29,30 @@ static async getLastHeadToHeadMatchup(team1Id, team2Id) {
     const team1Results = this.getResultsForTeam(results, team1Id);
     const team2Results = this.getResultsForTeam(results, team2Id);
     const result = this.combineResults(team1Results, team2Results);
+    const lastMatchup = await this.getLastHeadToHeadMatchup(team1Id, team2Id);
+    const prettyLastMatchup = this.prettyLastMatchup(lastMatchup);
+
+    result.lastMatchup = prettyLastMatchup;
+
+    return result;
+  }
+
+  static prettyLastMatchup(lastMatchup) {
+    console.log(`last: ${JSON.stringify(lastMatchup.MatchupResults)}`);
+    let scores = [lastMatchup.MatchupResults[0].score, lastMatchup.MatchupResults[1].score].sort(this.sortNumber);
+    let winningTeam = lastMatchup.MatchupResults.find(results => {
+      console.log(JSON.stringify(results))
+      return results.won == true
+    })
+
+    console.log(`winning: ${JSON.stringify(winningTeam)}`);
+    const result = {
+      week: lastMatchup.Week.week,
+      season: lastMatchup.Week.Season.year,
+      matchupType: lastMatchup.MatchupType.name,
+      winningTeam: winningTeam.Team.name,
+      score: `${scores[0]} - ${scores[1]}`
+    }
 
     return result;
   }
