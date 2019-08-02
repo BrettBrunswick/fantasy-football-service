@@ -109,6 +109,35 @@ class MatchupsRepository {
             });
         }
       }
+
+      static getLastHeadToHeadMatchup(team1Id, team2Id) {
+        return models.Matchup.findAll({
+            where: {
+                [Op.or]: [
+                    { HomeTeamId: team1Id, [Op.and]: {AwayTeamId: team2Id} },
+                    { HomeTeamId: team2Id, [Op.and]: {AwayTeamId: team1Id} }
+                  ]
+            },
+            attributes: ['id'],
+            include: [{
+                model: models.Week,
+                attributes: ['week'],
+                include: [{
+                  model: models.Season,
+                  attributes: ['year'],
+                }],
+              },
+              {
+                model: models.MatchupType,
+                attributes: ['name']
+              }],
+              order: [ 
+                [ models.Week, models.Season, 'year', 'DESC' ],
+                [ models.Week, 'week', 'DESC' ]
+              ],
+              limit: 1
+        });
+    }
     
 }
 

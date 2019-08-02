@@ -17,6 +17,12 @@ class MatchupService {
     return matchupIds.map(x => x.id);
 }
 
+static async getLastHeadToHeadMatchup(team1Id, team2Id) {
+  const result = await MatchupsRepository.getLastHeadToHeadMatchup(team1Id, team2Id);
+
+  return result;
+}
+
   static async getHeadToHeadResults(team1Id, team2Id) {
     const matchupIds = await this.getHeadToHeadMatchupIds(team1Id, team2Id);
     const results = await MatchupResultsRepository.getHeadToHeadResults(team1Id, team2Id, matchupIds);
@@ -27,7 +33,7 @@ class MatchupService {
     return result;
   }
 
-  static compareWins(team1Results, team2Results) {
+  static getWinningTeam(team1Results, team2Results) {
     var winningTeamId = null;
     if (parseFloat(team1Results.wins) > parseFloat(team2Results.wins)) {
         winningTeamId = team1Results.TeamId;
@@ -38,7 +44,7 @@ class MatchupService {
     return winningTeamId;
   }
 
-  static compareScore(team1Results, team2Results) {
+  static getHighScoringTeam(team1Results, team2Results) {
     var highScoreTeamId = null;
     if (parseFloat(team1Results.score) > parseFloat(team2Results.score)) {
         highScoreTeamId = team1Results.TeamId;
@@ -50,14 +56,14 @@ class MatchupService {
   }
 
   static combineResults(team1Results, team2Results) {
-    const winningTeamId = this.compareWins(team1Results, team2Results);
-    const highScoreTeamId = this.compareScore(team1Results, team2Results);
+    const winningTeamId = this.getWinningTeam(team1Results, team2Results);
+    const highScoreTeamId = this.getHighScoringTeam(team1Results, team2Results);
     var wins = [team1Results.wins, team2Results.wins].sort(this.sortNumber);
     var record = `${wins[0]} - ${wins[1]}`
     var scores = [team1Results.score, team2Results.score].sort(this.sortNumber);
     var score = `${scores[0]} - ${scores[1]}`
 
-      var result = {
+      const result = {
         winningTeamId: winningTeamId,
         record: record,
         highScoreTeamId: highScoreTeamId,
