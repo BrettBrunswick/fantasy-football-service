@@ -34,22 +34,22 @@ static async getLastHeadToHeadMatchup(team1Id, team2Id) {
   }
 
   static getWinningTeam(team1Results, team2Results) {
-    var winningTeamId = null;
+    var winningTeam = null;
     if (parseFloat(team1Results.wins) > parseFloat(team2Results.wins)) {
-        winningTeamId = team1Results.TeamId;
+        winningTeam = team1Results.TeamName;
     } else {
-        winningTeamId = team2Results.TeamId;
+      winningTeam = team2Results.TeamName;
     }
 
-    return winningTeamId;
+    return winningTeam;
   }
 
   static getHighScoringTeam(team1Results, team2Results) {
     var highScoreTeamId = null;
     if (parseFloat(team1Results.score) > parseFloat(team2Results.score)) {
-        highScoreTeamId = team1Results.TeamId;
+        highScoreTeamId = team1Results.TeamName;
     } else {
-        highScoreTeamId = team2Results.TeamId;
+        highScoreTeamId = team2Results.TeamName;
     }
 
     return highScoreTeamId;
@@ -64,9 +64,9 @@ static async getLastHeadToHeadMatchup(team1Id, team2Id) {
     var score = `${scores[0]} - ${scores[1]}`
 
       const result = {
-        winningTeamId: winningTeamId,
+        winningTeam: winningTeamId,
         record: record,
-        highScoreTeamId: highScoreTeamId,
+        highScoreTeam: highScoreTeamId,
         score: score
       };
 
@@ -95,7 +95,7 @@ static async getLastHeadToHeadMatchup(team1Id, team2Id) {
 
   static prettyStats(teamResults) {
     var result = {
-      TeamId: teamResults[0].TeamId,
+      TeamName: teamResults[0].Team.name,
       wins: this.countWins(teamResults),
       score: this.sumScore(teamResults)
     };

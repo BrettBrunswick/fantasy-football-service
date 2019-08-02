@@ -8,6 +8,7 @@ module.exports = (sequelize, DataTypes) => {
     Matchup.belongsTo(models.Team, {as: 'AwayTeam'});
     Matchup.belongsTo(models.MatchupType);
     Matchup.belongsTo(models.Week);
+    Matchup.hasMany(models.MatchupResult);
   };
   return Matchup;
 };

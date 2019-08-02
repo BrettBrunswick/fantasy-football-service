@@ -14,13 +14,14 @@ class MatchupResultsRepository {
                     [Op.in]: matchupIds
                 },
               },
-              order: ['TeamId'],
-              raw: true,
-              attributes: [
-                  'TeamId',
-                  'won',
-                  'score'
-              ]
+            include: [
+                { 
+                  model: models.Team,
+                  attributes: ['name']
+                }
+            ],
+            order: ['TeamId'],
+            attributes: ['TeamId', 'won', 'score']
           });
       }
 }
