@@ -65,10 +65,8 @@ static async getWeeklySummary() {
   }
 
   static prettyLastMatchup(lastMatchup) {
-    console.log(`last: ${JSON.stringify(lastMatchup.MatchupResults)}`);
     let scores = [lastMatchup.MatchupResults[0].score, lastMatchup.MatchupResults[1].score].sort(this.sortNumber);
     let winningTeam = lastMatchup.MatchupResults.find(results => {
-      console.log(JSON.stringify(results))
       return results.won == true
     })
 
