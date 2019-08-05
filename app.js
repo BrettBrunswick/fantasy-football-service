@@ -3,15 +3,21 @@ const bodyParser = require('body-parser');
 var db = require('./models');
 require('dotenv').config()
 const MatchupService = require("./services/matchupService");
+const SlackBotService = require('./services/slackbotService');
+const MessageFormatter = require('./services/messageFormatter');
 
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
+const slackBot = new SlackBotService();
+
 app.get('/', async function(req, res) {
-    const l = await MatchupService.getHeadToHeadResults(1, 3);
-    console.log(l)
+    const l = await MatchupService.getWeeklySummary();
+    const message = MessageFormatter.formatWeeklySummary(l);
+    console.log(message);
+    slackBot.postToMatchupsChannel(message);
     res.send(l);
 });
 

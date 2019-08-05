@@ -5,7 +5,7 @@ const MatchupResultsRepository = require("../repositories/matchupResults");
 class MatchupService {
 
   static async getThisWeeksMatchups() {
-    let weekId = 12;
+    let weekId = 30;
     const matchups = await MatchupsRepository.getAllInWeek(weekId);
 
     return matchups;
@@ -21,6 +21,33 @@ static async getLastHeadToHeadMatchup(team1Id, team2Id) {
   const result = await MatchupsRepository.getLastHeadToHeadMatchup(team1Id, team2Id);
 
   return result;
+}
+
+static formatWeeklyMatchups(matchups) {
+  const formattedMatchups = [];
+  matchups.forEach(x => {
+    const formattedMatchup = {
+      HomeTeam: x.HomeTeam,
+      AwayTeam: x.AwayTeam
+    };
+    formattedMatchups.push(formattedMatchup);
+  })
+  const result = {
+    week: matchups[0].Week,
+    matchups: formattedMatchups
+  };
+
+  return result;
+}
+
+static async getWeeklySummary() {
+  let matchups = await this.getThisWeeksMatchups();
+  matchups = this.formatWeeklyMatchups(matchups);
+  for (const matchup of matchups.matchups) {
+    matchup.headToHead = await this.getHeadToHeadResults(matchup.HomeTeam.id, matchup.AwayTeam.id)
+  }
+
+  return matchups;
 }
 
   static async getHeadToHeadResults(team1Id, team2Id) {
