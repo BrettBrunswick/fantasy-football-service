@@ -18,6 +18,10 @@ class slackBotService {
     postToMatchupsChannel(message) {
         this.bot.postMessageToChannel(process.env.SLACK_MATCHUP_CHANNEL, null, message);
     }
+
+    notifyCommisionerOfUsage(message) {
+        this.bot.postMessageToUser(process.env.COMMISIONER_SLACK_USERNAME, null, message);
+    }
 }
 
 module.exports = slackBotService;
