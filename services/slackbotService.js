@@ -14,6 +14,9 @@ class slackBotService {
         this.bot.on('error', err => console.log(err));
     }
     
+    postMessageToUser(username, message, block) {
+        this.bot.postMessageToUser(username, message, block);
+    }
 
     postToMatchupsChannel(message) {
         this.bot.postMessageToChannel(process.env.SLACK_MATCHUP_CHANNEL, null, message);

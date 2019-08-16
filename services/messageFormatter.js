@@ -52,6 +52,30 @@ class MessageFormatter {
 
     return { blocks: block };
   }
+
+  static formatErrorSlackSlachCommand(request, error, recomendation) {
+    const block = 
+    [
+      {
+        'type': 'divider'
+      },
+      {
+        'type': 'section',
+        'text': {
+          "type": "mrkdwn",
+          "text": `:interrobang: *ERROR* :interrobang:\n\n*Your Request:* \`${request}\`\n\n*Error:* ${error}\n\n*Try it like this:* ${recomendation}`
+        },
+        'accessory': {
+          'type': 'image',
+          'image_url': 'https://cdn.shopify.com/s/files/1/0042/8441/6100/products/jr_smith_high_600x600.jpg?v=1544899287'
+        }
+      },
+      {
+        'type': 'divider'
+      }
+    ];
+    return { blocks: block };
+  }
 }
 
 module.exports = MessageFormatter;
