@@ -1,0 +1,2498 @@
+[
+    {
+        "score": "101.24",
+        "won": true,
+        "createdAt": "2019-07-29T03:00:36.881Z",
+        "updatedAt": "2019-07-29T03:00:36.884Z",
+        "MatchupId": 1,
+        "TeamId": 3
+    },
+    {
+        "score": "77.22",
+        "won": false,
+        "createdAt": "2019-07-29T03:00:36.884Z",
+        "updatedAt": "2019-07-29T03:00:36.884Z",
+        "MatchupId": 1,
+        "TeamId": 7
+    },
+    {
+        "score": "61.54",
+        "won": false,
+        "createdAt": "2019-07-29T03:00:55.975Z",
+        "updatedAt": "2019-07-29T03:00:55.975Z",
+        "MatchupId": 2,
+        "TeamId": 6
+    },
+    {
+        "score": "66.94",
+        "won": true,
+        "createdAt": "2019-07-29T03:00:55.976Z",
+        "updatedAt": "2019-07-29T03:00:55.976Z",
+        "MatchupId": 2,
+        "TeamId": 13
+    },
+    {
+        "score": "91.34",
+        "won": true,
+        "createdAt": "2019-07-29T03:01:06.848Z",
+        "updatedAt": "2019-07-29T03:01:06.848Z",
+        "MatchupId": 3,
+        "TeamId": 1
+    },
+    {
+        "score": "66.48",
+        "won": false,
+        "createdAt": "2019-07-29T03:01:06.848Z",
+        "updatedAt": "2019-07-29T03:01:06.849Z",
+        "MatchupId": 3,
+        "TeamId": 11
+    },
+    {
+        "score": "73.34",
+        "won": true,
+        "createdAt": "2019-07-29T03:01:19.282Z",
+        "updatedAt": "2019-07-29T03:01:19.282Z",
+        "MatchupId": 4,
+        "TeamId": 9
+    },
+    {
+        "score": "66.98",
+        "won": false,
+        "createdAt": "2019-07-29T03:01:19.282Z",
+        "updatedAt": "2019-07-29T03:01:19.282Z",
+        "MatchupId": 4,
+        "TeamId": 5
+    },
+    {
+        "score": "92.28",
+        "won": true,
+        "createdAt": "2019-07-29T03:01:30.451Z",
+        "updatedAt": "2019-07-29T03:01:30.452Z",
+        "MatchupId": 5,
+        "TeamId": 12
+    },
+    {
+        "score": "67.62",
+        "won": false,
+        "createdAt": "2019-07-29T03:01:30.452Z",
+        "updatedAt": "2019-07-29T03:01:30.452Z",
+        "MatchupId": 5,
+        "TeamId": 14
+    },
+    {
+        "score": "80.92",
+        "won": true,
+        "createdAt": "2019-07-29T03:01:56.862Z",
+        "updatedAt": "2019-07-29T03:01:56.863Z",
+        "MatchupId": 6,
+        "TeamId": 3
+    },
+    {
+        "score": "51.42",
+        "won": false,
+        "createdAt": "2019-07-29T03:01:56.863Z",
+        "updatedAt": "2019-07-29T03:01:56.863Z",
+        "MatchupId": 6,
+        "TeamId": 6
+    },
+    {
+        "score": "106.72",
+        "won": true,
+        "createdAt": "2019-07-29T03:02:08.622Z",
+        "updatedAt": "2019-07-29T03:02:08.622Z",
+        "MatchupId": 7,
+        "TeamId": 7
+    },
+    {
+        "score": "71.62",
+        "won": false,
+        "createdAt": "2019-07-29T03:02:08.622Z",
+        "updatedAt": "2019-07-29T03:02:08.622Z",
+        "MatchupId": 7,
+        "TeamId": 14
+    },
+    {
+        "score": "83.6",
+        "won": true,
+        "createdAt": "2019-07-29T03:02:19.161Z",
+        "updatedAt": "2019-07-29T03:02:19.161Z",
+        "MatchupId": 8,
+        "TeamId": 1
+    },
+    {
+        "score": "78.68",
+        "won": false,
+        "createdAt": "2019-07-29T03:02:19.161Z",
+        "updatedAt": "2019-07-29T03:02:19.161Z",
+        "MatchupId": 8,
+        "TeamId": 13
+    },
+    {
+        "score": "95.64",
+        "won": true,
+        "createdAt": "2019-07-29T03:02:27.858Z",
+        "updatedAt": "2019-07-29T03:02:27.858Z",
+        "MatchupId": 9,
+        "TeamId": 9
+    },
+    {
+        "score": "94.4",
+        "won": false,
+        "createdAt": "2019-07-29T03:02:27.858Z",
+        "updatedAt": "2019-07-29T03:02:27.858Z",
+        "MatchupId": 9,
+        "TeamId": 11
+    },
+    {
+        "score": "89.58",
+        "won": true,
+        "createdAt": "2019-07-29T03:02:38.699Z",
+        "updatedAt": "2019-07-29T03:02:38.700Z",
+        "MatchupId": 10,
+        "TeamId": 12
+    },
+    {
+        "score": "87.58",
+        "won": false,
+        "createdAt": "2019-07-29T03:02:38.700Z",
+        "updatedAt": "2019-07-29T03:02:38.700Z",
+        "MatchupId": 10,
+        "TeamId": 5
+    },
+    {
+        "score": "108.42",
+        "won": true,
+        "createdAt": "2019-07-29T03:02:54.899Z",
+        "updatedAt": "2019-07-29T03:02:54.899Z",
+        "MatchupId": 11,
+        "TeamId": 3
+    },
+    {
+        "score": "79.84",
+        "won": false,
+        "createdAt": "2019-07-29T03:02:54.899Z",
+        "updatedAt": "2019-07-29T03:02:54.899Z",
+        "MatchupId": 11,
+        "TeamId": 1
+    },
+    {
+        "score": "60.12",
+        "won": false,
+        "createdAt": "2019-07-29T03:03:05.331Z",
+        "updatedAt": "2019-07-29T03:03:05.331Z",
+        "MatchupId": 12,
+        "TeamId": 7
+    },
+    {
+        "score": "75.38",
+        "won": true,
+        "createdAt": "2019-07-29T03:03:05.331Z",
+        "updatedAt": "2019-07-29T03:03:05.331Z",
+        "MatchupId": 12,
+        "TeamId": 6
+    },
+    {
+        "score": "90.8",
+        "won": false,
+        "createdAt": "2019-07-29T03:03:16.975Z",
+        "updatedAt": "2019-07-29T03:03:16.975Z",
+        "MatchupId": 13,
+        "TeamId": 9
+    },
+    {
+        "score": "136.66",
+        "won": true,
+        "createdAt": "2019-07-29T03:03:16.975Z",
+        "updatedAt": "2019-07-29T03:03:16.975Z",
+        "MatchupId": 13,
+        "TeamId": 13
+    },
+    {
+        "score": "85.26",
+        "won": false,
+        "createdAt": "2019-07-29T03:03:31.183Z",
+        "updatedAt": "2019-07-29T03:03:31.183Z",
+        "MatchupId": 14,
+        "TeamId": 12
+    },
+    {
+        "score": "94.42",
+        "won": true,
+        "createdAt": "2019-07-29T03:03:31.184Z",
+        "updatedAt": "2019-07-29T03:03:31.184Z",
+        "MatchupId": 14,
+        "TeamId": 11
+    },
+    {
+        "score": "109.72",
+        "won": true,
+        "createdAt": "2019-07-29T03:03:43.559Z",
+        "updatedAt": "2019-07-29T03:03:43.559Z",
+        "MatchupId": 15,
+        "TeamId": 14
+    },
+    {
+        "score": "95.22",
+        "won": false,
+        "createdAt": "2019-07-29T03:03:43.559Z",
+        "updatedAt": "2019-07-29T03:03:43.559Z",
+        "MatchupId": 15,
+        "TeamId": 5
+    },
+    {
+        "score": "96.46",
+        "won": false,
+        "createdAt": "2019-07-29T03:04:00.900Z",
+        "updatedAt": "2019-07-29T03:04:00.900Z",
+        "MatchupId": 16,
+        "TeamId": 3
+    },
+    {
+        "score": "102.22",
+        "won": true,
+        "createdAt": "2019-07-29T03:04:00.900Z",
+        "updatedAt": "2019-07-29T03:04:00.901Z",
+        "MatchupId": 16,
+        "TeamId": 9
+    },
+    {
+        "score": "109.48",
+        "won": true,
+        "createdAt": "2019-07-29T03:04:10.328Z",
+        "updatedAt": "2019-07-29T03:04:10.328Z",
+        "MatchupId": 17,
+        "TeamId": 7
+    },
+    {
+        "score": "76.44",
+        "won": false,
+        "createdAt": "2019-07-29T03:04:10.328Z",
+        "updatedAt": "2019-07-29T03:04:10.328Z",
+        "MatchupId": 17,
+        "TeamId": 1
+    },
+    {
+        "score": "100.84",
+        "won": true,
+        "createdAt": "2019-07-29T03:04:18.287Z",
+        "updatedAt": "2019-07-29T03:04:18.288Z",
+        "MatchupId": 18,
+        "TeamId": 6
+    },
+    {
+        "score": "76.7",
+        "won": false,
+        "createdAt": "2019-07-29T03:04:18.288Z",
+        "updatedAt": "2019-07-29T03:04:18.288Z",
+        "MatchupId": 18,
+        "TeamId": 14
+    },
+    {
+        "score": "86.36",
+        "won": true,
+        "createdAt": "2019-07-29T03:04:29.983Z",
+        "updatedAt": "2019-07-29T03:04:29.983Z",
+        "MatchupId": 19,
+        "TeamId": 12
+    },
+    {
+        "score": "80.98",
+        "won": false,
+        "createdAt": "2019-07-29T03:04:29.983Z",
+        "updatedAt": "2019-07-29T03:04:29.983Z",
+        "MatchupId": 19,
+        "TeamId": 13
+    },
+    {
+        "score": "98.72",
+        "won": true,
+        "createdAt": "2019-07-29T03:04:38.954Z",
+        "updatedAt": "2019-07-29T03:04:38.955Z",
+        "MatchupId": 20,
+        "TeamId": 11
+    },
+    {
+        "score": "79.08",
+        "won": false,
+        "createdAt": "2019-07-29T03:04:38.955Z",
+        "updatedAt": "2019-07-29T03:04:38.955Z",
+        "MatchupId": 20,
+        "TeamId": 5
+    },
+    {
+        "score": "74.34",
+        "won": false,
+        "createdAt": "2019-07-29T03:04:54.947Z",
+        "updatedAt": "2019-07-29T03:04:54.947Z",
+        "MatchupId": 21,
+        "TeamId": 3
+    },
+    {
+        "score": "92.86",
+        "won": true,
+        "createdAt": "2019-07-29T03:04:54.947Z",
+        "updatedAt": "2019-07-29T03:04:54.947Z",
+        "MatchupId": 21,
+        "TeamId": 12
+    },
+    {
+        "score": "103.24",
+        "won": false,
+        "createdAt": "2019-07-29T03:05:05.951Z",
+        "updatedAt": "2019-07-29T03:05:05.951Z",
+        "MatchupId": 22,
+        "TeamId": 7
+    },
+    {
+        "score": "107.22",
+        "won": true,
+        "createdAt": "2019-07-29T03:05:05.951Z",
+        "updatedAt": "2019-07-29T03:05:05.952Z",
+        "MatchupId": 22,
+        "TeamId": 9
+    },
+    {
+        "score": "82.1",
+        "won": false,
+        "createdAt": "2019-07-29T03:05:15.600Z",
+        "updatedAt": "2019-07-29T03:05:15.600Z",
+        "MatchupId": 23,
+        "TeamId": 6
+    },
+    {
+        "score": "122.26",
+        "won": true,
+        "createdAt": "2019-07-29T03:05:15.600Z",
+        "updatedAt": "2019-07-29T03:05:15.600Z",
+        "MatchupId": 23,
+        "TeamId": 1
+    },
+    {
+        "score": "79.72",
+        "won": true,
+        "createdAt": "2019-07-29T03:05:25.541Z",
+        "updatedAt": "2019-07-29T03:05:25.541Z",
+        "MatchupId": 24,
+        "TeamId": 5
+    },
+    {
+        "score": "70.3",
+        "won": false,
+        "createdAt": "2019-07-29T03:05:25.541Z",
+        "updatedAt": "2019-07-29T03:05:25.541Z",
+        "MatchupId": 24,
+        "TeamId": 13
+    },
+    {
+        "score": "70.72",
+        "won": false,
+        "createdAt": "2019-07-29T03:05:37.423Z",
+        "updatedAt": "2019-07-29T03:05:37.423Z",
+        "MatchupId": 25,
+        "TeamId": 14
+    },
+    {
+        "score": "97.26",
+        "won": true,
+        "createdAt": "2019-07-29T03:05:37.423Z",
+        "updatedAt": "2019-07-29T03:05:37.423Z",
+        "MatchupId": 25,
+        "TeamId": 11
+    },
+    {
+        "score": "72.12",
+        "won": true,
+        "createdAt": "2019-07-29T03:05:50.646Z",
+        "updatedAt": "2019-07-29T03:05:50.646Z",
+        "MatchupId": 26,
+        "TeamId": 3
+    },
+    {
+        "score": "69.38",
+        "won": false,
+        "createdAt": "2019-07-29T03:05:50.647Z",
+        "updatedAt": "2019-07-29T03:05:50.647Z",
+        "MatchupId": 26,
+        "TeamId": 5
+    },
+    {
+        "score": "76.62",
+        "won": false,
+        "createdAt": "2019-07-29T03:06:04.508Z",
+        "updatedAt": "2019-07-29T03:06:04.509Z",
+        "MatchupId": 27,
+        "TeamId": 7
+    },
+    {
+        "score": "78.38",
+        "won": true,
+        "createdAt": "2019-07-29T03:06:04.509Z",
+        "updatedAt": "2019-07-29T03:06:04.509Z",
+        "MatchupId": 27,
+        "TeamId": 12
+    },
+    {
+        "score": "60.94",
+        "won": false,
+        "createdAt": "2019-07-29T03:06:14.887Z",
+        "updatedAt": "2019-07-29T03:06:14.887Z",
+        "MatchupId": 28,
+        "TeamId": 9
+    },
+    {
+        "score": "91.76",
+        "won": true,
+        "createdAt": "2019-07-29T03:06:14.887Z",
+        "updatedAt": "2019-07-29T03:06:14.888Z",
+        "MatchupId": 28,
+        "TeamId": 6
+    },
+    {
+        "score": "131.7",
+        "won": true,
+        "createdAt": "2019-07-29T03:06:26.310Z",
+        "updatedAt": "2019-07-29T03:06:26.310Z",
+        "MatchupId": 29,
+        "TeamId": 1
+    },
+    {
+        "score": "102.14",
+        "won": false,
+        "createdAt": "2019-07-29T03:06:26.310Z",
+        "updatedAt": "2019-07-29T03:06:26.310Z",
+        "MatchupId": 29,
+        "TeamId": 14
+    },
+    {
+        "score": "76.14",
+        "won": false,
+        "createdAt": "2019-07-29T03:06:36.288Z",
+        "updatedAt": "2019-07-29T03:06:36.288Z",
+        "MatchupId": 30,
+        "TeamId": 11
+    },
+    {
+        "score": "129.22",
+        "won": true,
+        "createdAt": "2019-07-29T03:06:36.288Z",
+        "updatedAt": "2019-07-29T03:06:36.288Z",
+        "MatchupId": 30,
+        "TeamId": 13
+    },
+    {
+        "score": "88.36",
+        "won": false,
+        "createdAt": "2019-07-29T03:06:49.917Z",
+        "updatedAt": "2019-07-29T03:06:49.918Z",
+        "MatchupId": 31,
+        "TeamId": 3
+    },
+    {
+        "score": "122.88",
+        "won": true,
+        "createdAt": "2019-07-29T03:06:49.918Z",
+        "updatedAt": "2019-07-29T03:06:49.918Z",
+        "MatchupId": 31,
+        "TeamId": 11
+    },
+    {
+        "score": "77.86",
+        "won": true,
+        "createdAt": "2019-07-29T03:07:02.202Z",
+        "updatedAt": "2019-07-29T03:07:02.202Z",
+        "MatchupId": 32,
+        "TeamId": 7
+    },
+    {
+        "score": "76.36",
+        "won": false,
+        "createdAt": "2019-07-29T03:07:02.202Z",
+        "updatedAt": "2019-07-29T03:07:02.202Z",
+        "MatchupId": 32,
+        "TeamId": 5
+    },
+    {
+        "score": "72.74",
+        "won": false,
+        "createdAt": "2019-07-29T03:07:13.293Z",
+        "updatedAt": "2019-07-29T03:07:13.293Z",
+        "MatchupId": 33,
+        "TeamId": 6
+    },
+    {
+        "score": "104.92",
+        "won": true,
+        "createdAt": "2019-07-29T03:07:13.293Z",
+        "updatedAt": "2019-07-29T03:07:13.293Z",
+        "MatchupId": 33,
+        "TeamId": 12
+    },
+    {
+        "score": "109.82",
+        "won": true,
+        "createdAt": "2019-07-29T03:07:22.014Z",
+        "updatedAt": "2019-07-29T03:07:22.014Z",
+        "MatchupId": 34,
+        "TeamId": 1
+    },
+    {
+        "score": "102.44",
+        "won": false,
+        "createdAt": "2019-07-29T03:07:22.014Z",
+        "updatedAt": "2019-07-29T03:07:22.014Z",
+        "MatchupId": 34,
+        "TeamId": 9
+    },
+    {
+        "score": "73.28",
+        "won": false,
+        "createdAt": "2019-07-29T03:07:35.871Z",
+        "updatedAt": "2019-07-29T03:07:35.871Z",
+        "MatchupId": 35,
+        "TeamId": 14
+    },
+    {
+        "score": "98.12",
+        "won": true,
+        "createdAt": "2019-07-29T03:07:35.871Z",
+        "updatedAt": "2019-07-29T03:07:35.871Z",
+        "MatchupId": 35,
+        "TeamId": 13
+    },
+    {
+        "score": "71.12",
+        "won": false,
+        "createdAt": "2019-07-29T03:07:52.819Z",
+        "updatedAt": "2019-07-29T03:07:52.819Z",
+        "MatchupId": 36,
+        "TeamId": 3
+    },
+    {
+        "score": "73.56",
+        "won": true,
+        "createdAt": "2019-07-29T03:07:52.819Z",
+        "updatedAt": "2019-07-29T03:07:52.819Z",
+        "MatchupId": 36,
+        "TeamId": 13
+    },
+    {
+        "score": "86.32",
+        "won": true,
+        "createdAt": "2019-07-29T03:08:01.135Z",
+        "updatedAt": "2019-07-29T03:08:01.135Z",
+        "MatchupId": 37,
+        "TeamId": 7
+    },
+    {
+        "score": "71.22",
+        "won": false,
+        "createdAt": "2019-07-29T03:08:01.135Z",
+        "updatedAt": "2019-07-29T03:08:01.135Z",
+        "MatchupId": 37,
+        "TeamId": 11
+    },
+    {
+        "score": "89.26",
+        "won": false,
+        "createdAt": "2019-07-29T03:08:11.813Z",
+        "updatedAt": "2019-07-29T03:08:11.813Z",
+        "MatchupId": 38,
+        "TeamId": 6
+    },
+    {
+        "score": "113.92",
+        "won": true,
+        "createdAt": "2019-07-29T03:08:11.813Z",
+        "updatedAt": "2019-07-29T03:08:11.813Z",
+        "MatchupId": 38,
+        "TeamId": 5
+    },
+    {
+        "score": "99.5",
+        "won": false,
+        "createdAt": "2019-07-29T03:08:21.929Z",
+        "updatedAt": "2019-07-29T03:08:21.929Z",
+        "MatchupId": 39,
+        "TeamId": 12
+    },
+    {
+        "score": "122.34",
+        "won": true,
+        "createdAt": "2019-07-29T03:08:21.929Z",
+        "updatedAt": "2019-07-29T03:08:21.929Z",
+        "MatchupId": 39,
+        "TeamId": 1
+    },
+    {
+        "score": "94.48",
+        "won": false,
+        "createdAt": "2019-07-29T03:08:33.253Z",
+        "updatedAt": "2019-07-29T03:08:33.254Z",
+        "MatchupId": 40,
+        "TeamId": 14
+    },
+    {
+        "score": "111.26",
+        "won": true,
+        "createdAt": "2019-07-29T03:08:33.254Z",
+        "updatedAt": "2019-07-29T03:08:33.254Z",
+        "MatchupId": 40,
+        "TeamId": 9
+    },
+    {
+        "score": "113.64",
+        "won": true,
+        "createdAt": "2019-07-29T03:08:53.598Z",
+        "updatedAt": "2019-07-29T03:08:53.598Z",
+        "MatchupId": 41,
+        "TeamId": 3
+    },
+    {
+        "score": "82.48",
+        "won": false,
+        "createdAt": "2019-07-29T03:08:53.599Z",
+        "updatedAt": "2019-07-29T03:08:53.599Z",
+        "MatchupId": 41,
+        "TeamId": 14
+    },
+    {
+        "score": "119.56",
+        "won": true,
+        "createdAt": "2019-07-29T03:09:04.299Z",
+        "updatedAt": "2019-07-29T03:09:04.299Z",
+        "MatchupId": 42,
+        "TeamId": 7
+    },
+    {
+        "score": "74.32",
+        "won": false,
+        "createdAt": "2019-07-29T03:09:04.299Z",
+        "updatedAt": "2019-07-29T03:09:04.300Z",
+        "MatchupId": 42,
+        "TeamId": 13
+    },
+    {
+        "score": "75.28",
+        "won": false,
+        "createdAt": "2019-07-29T03:12:18.084Z",
+        "updatedAt": "2019-07-29T03:12:18.084Z",
+        "MatchupId": 43,
+        "TeamId": 6
+    },
+    {
+        "score": "84.6",
+        "won": true,
+        "createdAt": "2019-07-29T03:12:18.084Z",
+        "updatedAt": "2019-07-29T03:12:18.085Z",
+        "MatchupId": 43,
+        "TeamId": 11
+    },
+    {
+        "score": "96.46",
+        "won": false,
+        "createdAt": "2019-07-29T03:12:27.702Z",
+        "updatedAt": "2019-07-29T03:12:27.702Z",
+        "MatchupId": 44,
+        "TeamId": 1
+    },
+    {
+        "score": "101.52",
+        "won": true,
+        "createdAt": "2019-07-29T03:12:27.702Z",
+        "updatedAt": "2019-07-29T03:12:27.702Z",
+        "MatchupId": 44,
+        "TeamId": 5
+    },
+    {
+        "score": "81.22",
+        "won": false,
+        "createdAt": "2019-07-29T03:13:07.025Z",
+        "updatedAt": "2019-07-29T03:13:07.025Z",
+        "MatchupId": 45,
+        "TeamId": 9
+    },
+    {
+        "score": "102.2",
+        "won": true,
+        "createdAt": "2019-07-29T03:13:07.025Z",
+        "updatedAt": "2019-07-29T03:13:07.025Z",
+        "MatchupId": 45,
+        "TeamId": 12
+    },
+    {
+        "score": "129.54",
+        "won": true,
+        "createdAt": "2019-07-29T03:13:19.202Z",
+        "updatedAt": "2019-07-29T03:13:19.203Z",
+        "MatchupId": 46,
+        "TeamId": 3
+    },
+    {
+        "score": "55.94",
+        "won": false,
+        "createdAt": "2019-07-29T03:13:19.203Z",
+        "updatedAt": "2019-07-29T03:13:19.203Z",
+        "MatchupId": 46,
+        "TeamId": 7
+    },
+    {
+        "score": "84.76",
+        "won": true,
+        "createdAt": "2019-07-29T03:13:27.233Z",
+        "updatedAt": "2019-07-29T03:13:27.233Z",
+        "MatchupId": 47,
+        "TeamId": 6
+    },
+    {
+        "score": "80.5",
+        "won": false,
+        "createdAt": "2019-07-29T03:13:27.233Z",
+        "updatedAt": "2019-07-29T03:13:27.233Z",
+        "MatchupId": 47,
+        "TeamId": 13
+    },
+    {
+        "score": "91.66",
+        "won": true,
+        "createdAt": "2019-07-29T03:13:36.494Z",
+        "updatedAt": "2019-07-29T03:13:36.494Z",
+        "MatchupId": 48,
+        "TeamId": 1
+    },
+    {
+        "score": "58.38",
+        "won": false,
+        "createdAt": "2019-07-29T03:13:36.494Z",
+        "updatedAt": "2019-07-29T03:13:36.494Z",
+        "MatchupId": 48,
+        "TeamId": 11
+    },
+    {
+        "score": "102.16",
+        "won": false,
+        "createdAt": "2019-07-29T03:13:45.011Z",
+        "updatedAt": "2019-07-29T03:13:45.012Z",
+        "MatchupId": 49,
+        "TeamId": 9
+    },
+    {
+        "score": "106.34",
+        "won": true,
+        "createdAt": "2019-07-29T03:13:45.012Z",
+        "updatedAt": "2019-07-29T03:13:45.012Z",
+        "MatchupId": 49,
+        "TeamId": 5
+    },
+    {
+        "score": "55.04",
+        "won": false,
+        "createdAt": "2019-07-29T03:13:52.556Z",
+        "updatedAt": "2019-07-29T03:13:52.556Z",
+        "MatchupId": 50,
+        "TeamId": 12
+    },
+    {
+        "score": "92.72",
+        "won": true,
+        "createdAt": "2019-07-29T03:13:52.556Z",
+        "updatedAt": "2019-07-29T03:13:52.557Z",
+        "MatchupId": 50,
+        "TeamId": 14
+    },
+    {
+        "score": "64.2",
+        "won": false,
+        "createdAt": "2019-07-29T03:14:04.667Z",
+        "updatedAt": "2019-07-29T03:14:04.667Z",
+        "MatchupId": 51,
+        "TeamId": 3
+    },
+    {
+        "score": "103.74",
+        "won": true,
+        "createdAt": "2019-07-29T03:14:04.668Z",
+        "updatedAt": "2019-07-29T03:14:04.668Z",
+        "MatchupId": 51,
+        "TeamId": 6
+    },
+    {
+        "score": "83.5",
+        "won": false,
+        "createdAt": "2019-07-29T03:14:13.976Z",
+        "updatedAt": "2019-07-29T03:14:13.976Z",
+        "MatchupId": 52,
+        "TeamId": 7
+    },
+    {
+        "score": "120.62",
+        "won": true,
+        "createdAt": "2019-07-29T03:14:13.976Z",
+        "updatedAt": "2019-07-29T03:14:13.976Z",
+        "MatchupId": 52,
+        "TeamId": 14
+    },
+    {
+        "score": "97.72",
+        "won": true,
+        "createdAt": "2019-07-29T03:14:23.938Z",
+        "updatedAt": "2019-07-29T03:14:23.939Z",
+        "MatchupId": 53,
+        "TeamId": 1
+    },
+    {
+        "score": "66.1",
+        "won": false,
+        "createdAt": "2019-07-29T03:14:23.939Z",
+        "updatedAt": "2019-07-29T03:14:23.939Z",
+        "MatchupId": 53,
+        "TeamId": 13
+    },
+    {
+        "score": "75.3",
+        "won": false,
+        "createdAt": "2019-07-29T03:14:32.897Z",
+        "updatedAt": "2019-07-29T03:14:32.897Z",
+        "MatchupId": 54,
+        "TeamId": 9
+    },
+    {
+        "score": "90.38",
+        "won": true,
+        "createdAt": "2019-07-29T03:14:32.897Z",
+        "updatedAt": "2019-07-29T03:14:32.897Z",
+        "MatchupId": 54,
+        "TeamId": 11
+    },
+    {
+        "score": "82.56",
+        "won": false,
+        "createdAt": "2019-07-29T03:14:41.362Z",
+        "updatedAt": "2019-07-29T03:14:41.362Z",
+        "MatchupId": 55,
+        "TeamId": 12
+    },
+    {
+        "score": "105.7",
+        "won": true,
+        "createdAt": "2019-07-29T03:14:41.362Z",
+        "updatedAt": "2019-07-29T03:14:41.362Z",
+        "MatchupId": 55,
+        "TeamId": 5
+    },
+    {
+        "score": "114.72",
+        "won": true,
+        "createdAt": "2019-07-29T03:14:53.518Z",
+        "updatedAt": "2019-07-29T03:14:53.518Z",
+        "MatchupId": 56,
+        "TeamId": 3
+    },
+    {
+        "score": "100.68",
+        "won": false,
+        "createdAt": "2019-07-29T03:14:53.519Z",
+        "updatedAt": "2019-07-29T03:14:53.519Z",
+        "MatchupId": 56,
+        "TeamId": 1
+    },
+    {
+        "score": "80.76",
+        "won": false,
+        "createdAt": "2019-07-29T03:15:07.045Z",
+        "updatedAt": "2019-07-29T03:15:07.045Z",
+        "MatchupId": 57,
+        "TeamId": 7
+    },
+    {
+        "score": "106.62",
+        "won": true,
+        "createdAt": "2019-07-29T03:15:07.045Z",
+        "updatedAt": "2019-07-29T03:15:07.045Z",
+        "MatchupId": 57,
+        "TeamId": 6
+    },
+    {
+        "score": "77.94",
+        "won": false,
+        "createdAt": "2019-07-29T03:15:15.458Z",
+        "updatedAt": "2019-07-29T03:15:15.458Z",
+        "MatchupId": 58,
+        "TeamId": 9
+    },
+    {
+        "score": "91.88",
+        "won": true,
+        "createdAt": "2019-07-29T03:15:15.458Z",
+        "updatedAt": "2019-07-29T03:15:15.458Z",
+        "MatchupId": 58,
+        "TeamId": 13
+    },
+    {
+        "score": "79.7",
+        "won": true,
+        "createdAt": "2019-07-29T03:15:26.630Z",
+        "updatedAt": "2019-07-29T03:15:26.630Z",
+        "MatchupId": 59,
+        "TeamId": 12
+    },
+    {
+        "score": "62.76",
+        "won": false,
+        "createdAt": "2019-07-29T03:15:26.630Z",
+        "updatedAt": "2019-07-29T03:15:26.630Z",
+        "MatchupId": 59,
+        "TeamId": 11
+    },
+    {
+        "score": "100.32",
+        "won": false,
+        "createdAt": "2019-07-29T03:15:38.539Z",
+        "updatedAt": "2019-07-29T03:15:38.539Z",
+        "MatchupId": 60,
+        "TeamId": 14
+    },
+    {
+        "score": "153.12",
+        "won": true,
+        "createdAt": "2019-07-29T03:15:38.539Z",
+        "updatedAt": "2019-07-29T03:15:38.539Z",
+        "MatchupId": 60,
+        "TeamId": 5
+    },
+    {
+        "score": "92.9",
+        "won": true,
+        "createdAt": "2019-07-29T03:15:52.486Z",
+        "updatedAt": "2019-07-29T03:15:52.486Z",
+        "MatchupId": 61,
+        "TeamId": 3
+    },
+    {
+        "score": "61.76",
+        "won": false,
+        "createdAt": "2019-07-29T03:15:52.486Z",
+        "updatedAt": "2019-07-29T03:15:52.486Z",
+        "MatchupId": 61,
+        "TeamId": 9
+    },
+    {
+        "score": "111.58",
+        "won": true,
+        "createdAt": "2019-07-29T03:16:01.414Z",
+        "updatedAt": "2019-07-29T03:16:01.414Z",
+        "MatchupId": 62,
+        "TeamId": 7
+    },
+    {
+        "score": "78.42",
+        "won": false,
+        "createdAt": "2019-07-29T03:16:01.414Z",
+        "updatedAt": "2019-07-29T03:16:01.414Z",
+        "MatchupId": 62,
+        "TeamId": 1
+    },
+    {
+        "score": "89.86",
+        "won": true,
+        "createdAt": "2019-07-29T03:16:12.243Z",
+        "updatedAt": "2019-07-29T03:16:12.243Z",
+        "MatchupId": 63,
+        "TeamId": 6
+    },
+    {
+        "score": "78.48",
+        "won": false,
+        "createdAt": "2019-07-29T03:16:12.243Z",
+        "updatedAt": "2019-07-29T03:16:12.243Z",
+        "MatchupId": 63,
+        "TeamId": 14
+    },
+    {
+        "score": "93.08",
+        "won": true,
+        "createdAt": "2019-07-29T03:16:20.634Z",
+        "updatedAt": "2019-07-29T03:16:20.634Z",
+        "MatchupId": 64,
+        "TeamId": 12
+    },
+    {
+        "score": "81.24",
+        "won": false,
+        "createdAt": "2019-07-29T03:16:20.634Z",
+        "updatedAt": "2019-07-29T03:16:20.634Z",
+        "MatchupId": 64,
+        "TeamId": 13
+    },
+    {
+        "score": "128.2",
+        "won": true,
+        "createdAt": "2019-07-29T03:16:31.197Z",
+        "updatedAt": "2019-07-29T03:16:31.198Z",
+        "MatchupId": 65,
+        "TeamId": 11
+    },
+    {
+        "score": "94.22",
+        "won": false,
+        "createdAt": "2019-07-29T03:16:31.198Z",
+        "updatedAt": "2019-07-29T03:16:31.198Z",
+        "MatchupId": 65,
+        "TeamId": 5
+    },
+    {
+        "score": "92.06",
+        "won": false,
+        "createdAt": "2019-07-29T03:16:43.860Z",
+        "updatedAt": "2019-07-29T03:16:43.860Z",
+        "MatchupId": 66,
+        "TeamId": 3
+    },
+    {
+        "score": "129.04",
+        "won": true,
+        "createdAt": "2019-07-29T03:16:43.860Z",
+        "updatedAt": "2019-07-29T03:16:43.860Z",
+        "MatchupId": 66,
+        "TeamId": 12
+    },
+    {
+        "score": "98.48",
+        "won": true,
+        "createdAt": "2019-07-29T03:16:53.933Z",
+        "updatedAt": "2019-07-29T03:16:53.933Z",
+        "MatchupId": 67,
+        "TeamId": 7
+    },
+    {
+        "score": "95.04",
+        "won": false,
+        "createdAt": "2019-07-29T03:16:53.933Z",
+        "updatedAt": "2019-07-29T03:16:53.936Z",
+        "MatchupId": 67,
+        "TeamId": 9
+    },
+    {
+        "score": "97.88",
+        "won": false,
+        "createdAt": "2019-07-29T03:17:03.011Z",
+        "updatedAt": "2019-07-29T03:17:03.011Z",
+        "MatchupId": 68,
+        "TeamId": 6
+    },
+    {
+        "score": "104.62",
+        "won": true,
+        "createdAt": "2019-07-29T03:17:03.011Z",
+        "updatedAt": "2019-07-29T03:17:03.011Z",
+        "MatchupId": 68,
+        "TeamId": 1
+    },
+    {
+        "score": "67.22",
+        "won": true,
+        "createdAt": "2019-07-29T03:17:13.418Z",
+        "updatedAt": "2019-07-29T03:17:13.418Z",
+        "MatchupId": 69,
+        "TeamId": 5
+    },
+    {
+        "score": "66.54",
+        "won": false,
+        "createdAt": "2019-07-29T03:17:13.418Z",
+        "updatedAt": "2019-07-29T03:17:13.418Z",
+        "MatchupId": 69,
+        "TeamId": 13
+    },
+    {
+        "score": "80.94",
+        "won": false,
+        "createdAt": "2019-07-29T03:17:24.870Z",
+        "updatedAt": "2019-07-29T03:17:24.871Z",
+        "MatchupId": 70,
+        "TeamId": 14
+    },
+    {
+        "score": "109.44",
+        "won": true,
+        "createdAt": "2019-07-29T03:17:24.871Z",
+        "updatedAt": "2019-07-29T03:17:24.871Z",
+        "MatchupId": 70,
+        "TeamId": 11
+    },
+    {
+        "score": "113.94",
+        "won": false,
+        "createdAt": "2019-07-29T03:17:50.427Z",
+        "updatedAt": "2019-07-29T03:17:50.428Z",
+        "MatchupId": 71,
+        "TeamId": 3
+    },
+    {
+        "score": "123.84",
+        "won": true,
+        "createdAt": "2019-07-29T03:17:50.428Z",
+        "updatedAt": "2019-07-29T03:17:50.428Z",
+        "MatchupId": 71,
+        "TeamId": 1
+    },
+    {
+        "score": "107.88",
+        "won": false,
+        "createdAt": "2019-07-29T03:18:00.917Z",
+        "updatedAt": "2019-07-29T03:18:00.918Z",
+        "MatchupId": 72,
+        "TeamId": 12
+    },
+    {
+        "score": "121.44",
+        "won": true,
+        "createdAt": "2019-07-29T03:18:00.918Z",
+        "updatedAt": "2019-07-29T03:18:00.918Z",
+        "MatchupId": 72,
+        "TeamId": 11
+    },
+    {
+        "score": "90.42",
+        "won": true,
+        "createdAt": "2019-07-29T03:18:16.561Z",
+        "updatedAt": "2019-07-29T03:18:16.561Z",
+        "MatchupId": 73,
+        "TeamId": 5
+    },
+    {
+        "score": "35.94",
+        "won": false,
+        "createdAt": "2019-07-29T03:18:16.562Z",
+        "updatedAt": "2019-07-29T03:18:16.562Z",
+        "MatchupId": 73,
+        "TeamId": 13
+    },
+    {
+        "score": "68.08",
+        "won": false,
+        "createdAt": "2019-07-29T03:18:29.250Z",
+        "updatedAt": "2019-07-29T03:18:29.250Z",
+        "MatchupId": 74,
+        "TeamId": 7
+    },
+    {
+        "score": "96.58",
+        "won": true,
+        "createdAt": "2019-07-29T03:18:29.250Z",
+        "updatedAt": "2019-07-29T03:18:29.250Z",
+        "MatchupId": 74,
+        "TeamId": 6
+    },
+    {
+        "score": "104.5",
+        "won": true,
+        "createdAt": "2019-07-29T03:18:46.463Z",
+        "updatedAt": "2019-07-29T03:18:46.463Z",
+        "MatchupId": 75,
+        "TeamId": 1
+    },
+    {
+        "score": "88.18",
+        "won": false,
+        "createdAt": "2019-07-29T03:18:46.463Z",
+        "updatedAt": "2019-07-29T03:18:46.463Z",
+        "MatchupId": 75,
+        "TeamId": 11
+    },
+    {
+        "score": "64.92",
+        "won": false,
+        "createdAt": "2019-07-29T03:18:57.495Z",
+        "updatedAt": "2019-07-29T03:18:57.496Z",
+        "MatchupId": 76,
+        "TeamId": 12
+    },
+    {
+        "score": "109.04",
+        "won": true,
+        "createdAt": "2019-07-29T03:18:57.496Z",
+        "updatedAt": "2019-07-29T03:18:57.496Z",
+        "MatchupId": 76,
+        "TeamId": 3
+    },
+    {
+        "score": "65.56",
+        "won": false,
+        "createdAt": "2019-07-29T03:19:13.969Z",
+        "updatedAt": "2019-07-29T03:19:13.970Z",
+        "MatchupId": 77,
+        "TeamId": 5
+    },
+    {
+        "score": "88.9",
+        "won": true,
+        "createdAt": "2019-07-29T03:19:13.970Z",
+        "updatedAt": "2019-07-29T03:19:13.970Z",
+        "MatchupId": 77,
+        "TeamId": 6
+    },
+    {
+        "score": "88.74",
+        "won": true,
+        "createdAt": "2019-07-29T03:19:23.536Z",
+        "updatedAt": "2019-07-29T03:19:23.536Z",
+        "MatchupId": 78,
+        "TeamId": 7
+    },
+    {
+        "score": "73.06",
+        "won": false,
+        "createdAt": "2019-07-29T03:19:23.536Z",
+        "updatedAt": "2019-07-29T03:19:23.536Z",
+        "MatchupId": 78,
+        "TeamId": 13
+    },
+    {
+        "score": "207.64",
+        "won": true,
+        "createdAt": "2019-07-29T03:20:22.213Z",
+        "updatedAt": "2019-07-29T03:20:22.214Z",
+        "MatchupId": 79,
+        "TeamId": 3
+    },
+    {
+        "score": "156.26",
+        "won": false,
+        "createdAt": "2019-07-29T03:20:22.214Z",
+        "updatedAt": "2019-07-29T03:20:22.214Z",
+        "MatchupId": 79,
+        "TeamId": 7
+    },
+    {
+        "score": "116.26",
+        "won": true,
+        "createdAt": "2019-07-29T03:20:33.847Z",
+        "updatedAt": "2019-07-29T03:20:33.848Z",
+        "MatchupId": 80,
+        "TeamId": 6
+    },
+    {
+        "score": "114.54",
+        "won": false,
+        "createdAt": "2019-07-29T03:20:33.848Z",
+        "updatedAt": "2019-07-29T03:20:33.848Z",
+        "MatchupId": 80,
+        "TeamId": 4
+    },
+    {
+        "score": "147.68",
+        "won": true,
+        "createdAt": "2019-07-29T03:20:45.744Z",
+        "updatedAt": "2019-07-29T03:20:45.744Z",
+        "MatchupId": 81,
+        "TeamId": 1
+    },
+    {
+        "score": "135.62",
+        "won": false,
+        "createdAt": "2019-07-29T03:20:45.744Z",
+        "updatedAt": "2019-07-29T03:20:45.745Z",
+        "MatchupId": 81,
+        "TeamId": 5
+    },
+    {
+        "score": "110.94",
+        "won": false,
+        "createdAt": "2019-07-29T03:20:55.176Z",
+        "updatedAt": "2019-07-29T03:20:55.177Z",
+        "MatchupId": 82,
+        "TeamId": 9
+    },
+    {
+        "score": "189.36",
+        "won": true,
+        "createdAt": "2019-07-29T03:20:55.177Z",
+        "updatedAt": "2019-07-29T03:20:55.177Z",
+        "MatchupId": 82,
+        "TeamId": 10
+    },
+    {
+        "score": "97.32",
+        "won": true,
+        "createdAt": "2019-07-29T03:21:04.395Z",
+        "updatedAt": "2019-07-29T03:21:04.396Z",
+        "MatchupId": 83,
+        "TeamId": 2
+    },
+    {
+        "score": "81.64",
+        "won": false,
+        "createdAt": "2019-07-29T03:21:04.396Z",
+        "updatedAt": "2019-07-29T03:21:04.396Z",
+        "MatchupId": 83,
+        "TeamId": 8
+    },
+    {
+        "score": "173.1",
+        "won": true,
+        "createdAt": "2019-07-29T03:21:18.139Z",
+        "updatedAt": "2019-07-29T03:21:18.139Z",
+        "MatchupId": 84,
+        "TeamId": 3
+    },
+    {
+        "score": "146.34",
+        "won": false,
+        "createdAt": "2019-07-29T03:21:18.140Z",
+        "updatedAt": "2019-07-29T03:21:18.140Z",
+        "MatchupId": 84,
+        "TeamId": 6
+    },
+    {
+        "score": "161.94",
+        "won": true,
+        "createdAt": "2019-07-29T03:21:33.809Z",
+        "updatedAt": "2019-07-29T03:21:33.809Z",
+        "MatchupId": 85,
+        "TeamId": 7
+    },
+    {
+        "score": "161.38",
+        "won": false,
+        "createdAt": "2019-07-29T03:21:33.809Z",
+        "updatedAt": "2019-07-29T03:21:33.809Z",
+        "MatchupId": 85,
+        "TeamId": 8
+    },
+    {
+        "score": "147.58",
+        "won": true,
+        "createdAt": "2019-07-29T03:21:43.909Z",
+        "updatedAt": "2019-07-29T03:21:43.909Z",
+        "MatchupId": 86,
+        "TeamId": 1
+    },
+    {
+        "score": "111.04",
+        "won": false,
+        "createdAt": "2019-07-29T03:21:43.909Z",
+        "updatedAt": "2019-07-29T03:21:43.909Z",
+        "MatchupId": 86,
+        "TeamId": 4
+    },
+    {
+        "score": "137.18",
+        "won": true,
+        "createdAt": "2019-07-29T03:21:54.106Z",
+        "updatedAt": "2019-07-29T03:21:54.106Z",
+        "MatchupId": 87,
+        "TeamId": 9
+    },
+    {
+        "score": "126.24",
+        "won": false,
+        "createdAt": "2019-07-29T03:21:54.106Z",
+        "updatedAt": "2019-07-29T03:21:54.106Z",
+        "MatchupId": 87,
+        "TeamId": 5
+    },
+    {
+        "score": "160.52",
+        "won": true,
+        "createdAt": "2019-07-29T03:22:03.593Z",
+        "updatedAt": "2019-07-29T03:22:03.594Z",
+        "MatchupId": 88,
+        "TeamId": 10
+    },
+    {
+        "score": "95.56",
+        "won": false,
+        "createdAt": "2019-07-29T03:22:03.594Z",
+        "updatedAt": "2019-07-29T03:22:03.594Z",
+        "MatchupId": 88,
+        "TeamId": 2
+    },
+    {
+        "score": "179.9",
+        "won": true,
+        "createdAt": "2019-07-29T03:22:27.226Z",
+        "updatedAt": "2019-07-29T03:22:27.226Z",
+        "MatchupId": 89,
+        "TeamId": 3
+    },
+    {
+        "score": "166.52",
+        "won": false,
+        "createdAt": "2019-07-29T03:22:27.226Z",
+        "updatedAt": "2019-07-29T03:22:27.226Z",
+        "MatchupId": 89,
+        "TeamId": 1
+    },
+    {
+        "score": "149.46",
+        "won": true,
+        "createdAt": "2019-07-29T03:22:42.244Z",
+        "updatedAt": "2019-07-29T03:22:42.244Z",
+        "MatchupId": 90,
+        "TeamId": 6
+    },
+    {
+        "score": "121.86",
+        "won": false,
+        "createdAt": "2019-07-29T03:22:42.244Z",
+        "updatedAt": "2019-07-29T03:22:42.244Z",
+        "MatchupId": 90,
+        "TeamId": 7
+    },
+    {
+        "score": "111.08",
+        "won": false,
+        "createdAt": "2019-07-29T03:22:50.849Z",
+        "updatedAt": "2019-07-29T03:22:50.849Z",
+        "MatchupId": 91,
+        "TeamId": 9
+    },
+    {
+        "score": "128.9",
+        "won": true,
+        "createdAt": "2019-07-29T03:22:50.850Z",
+        "updatedAt": "2019-07-29T03:22:50.850Z",
+        "MatchupId": 91,
+        "TeamId": 4
+    },
+    {
+        "score": "84.3",
+        "won": false,
+        "createdAt": "2019-07-29T03:22:59.559Z",
+        "updatedAt": "2019-07-29T03:22:59.559Z",
+        "MatchupId": 92,
+        "TeamId": 2
+    },
+    {
+        "score": "129.78",
+        "won": true,
+        "createdAt": "2019-07-29T03:22:59.560Z",
+        "updatedAt": "2019-07-29T03:22:59.560Z",
+        "MatchupId": 92,
+        "TeamId": 5
+    },
+    {
+        "score": "152.34",
+        "won": true,
+        "createdAt": "2019-07-29T03:23:14.210Z",
+        "updatedAt": "2019-07-29T03:23:14.210Z",
+        "MatchupId": 93,
+        "TeamId": 10
+    },
+    {
+        "score": "152.28",
+        "won": false,
+        "createdAt": "2019-07-29T03:23:14.210Z",
+        "updatedAt": "2019-07-29T03:23:14.211Z",
+        "MatchupId": 93,
+        "TeamId": 8
+    },
+    {
+        "score": "188.9",
+        "won": true,
+        "createdAt": "2019-07-29T03:23:26.683Z",
+        "updatedAt": "2019-07-29T03:23:26.683Z",
+        "MatchupId": 94,
+        "TeamId": 3
+    },
+    {
+        "score": "133.1",
+        "won": false,
+        "createdAt": "2019-07-29T03:23:26.683Z",
+        "updatedAt": "2019-07-29T03:23:26.683Z",
+        "MatchupId": 94,
+        "TeamId": 9
+    },
+    {
+        "score": "158.66",
+        "won": true,
+        "createdAt": "2019-07-29T03:23:37.225Z",
+        "updatedAt": "2019-07-29T03:23:37.225Z",
+        "MatchupId": 95,
+        "TeamId": 7
+    },
+    {
+        "score": "155.26",
+        "won": false,
+        "createdAt": "2019-07-29T03:23:37.225Z",
+        "updatedAt": "2019-07-29T03:23:37.225Z",
+        "MatchupId": 95,
+        "TeamId": 1
+    },
+    {
+        "score": "142.5",
+        "won": true,
+        "createdAt": "2019-07-29T03:23:48.301Z",
+        "updatedAt": "2019-07-29T03:23:48.301Z",
+        "MatchupId": 96,
+        "TeamId": 6
+    },
+    {
+        "score": "132.38",
+        "won": false,
+        "createdAt": "2019-07-29T03:23:48.301Z",
+        "updatedAt": "2019-07-29T03:23:48.301Z",
+        "MatchupId": 96,
+        "TeamId": 8
+    },
+    {
+        "score": "131.02",
+        "won": false,
+        "createdAt": "2019-07-29T03:23:56.544Z",
+        "updatedAt": "2019-07-29T03:23:56.544Z",
+        "MatchupId": 97,
+        "TeamId": 2
+    },
+    {
+        "score": "150.42",
+        "won": true,
+        "createdAt": "2019-07-29T03:23:56.545Z",
+        "updatedAt": "2019-07-29T03:23:56.545Z",
+        "MatchupId": 97,
+        "TeamId": 4
+    },
+    {
+        "score": "164.58",
+        "won": true,
+        "createdAt": "2019-07-29T03:24:06.867Z",
+        "updatedAt": "2019-07-29T03:24:06.868Z",
+        "MatchupId": 98,
+        "TeamId": 10
+    },
+    {
+        "score": "152.18",
+        "won": false,
+        "createdAt": "2019-07-29T03:24:06.868Z",
+        "updatedAt": "2019-07-29T03:24:06.868Z",
+        "MatchupId": 98,
+        "TeamId": 5
+    },
+    {
+        "score": "127.78",
+        "won": true,
+        "createdAt": "2019-07-29T03:24:26.135Z",
+        "updatedAt": "2019-07-29T03:24:26.135Z",
+        "MatchupId": 99,
+        "TeamId": 3
+    },
+    {
+        "score": "104.54",
+        "won": false,
+        "createdAt": "2019-07-29T03:24:26.135Z",
+        "updatedAt": "2019-07-29T03:24:26.136Z",
+        "MatchupId": 99,
+        "TeamId": 2
+    },
+    {
+        "score": "174.02",
+        "won": true,
+        "createdAt": "2019-07-29T03:24:34.654Z",
+        "updatedAt": "2019-07-29T03:24:34.654Z",
+        "MatchupId": 100,
+        "TeamId": 7
+    },
+    {
+        "score": "157.3",
+        "won": false,
+        "createdAt": "2019-07-29T03:24:34.654Z",
+        "updatedAt": "2019-07-29T03:24:34.654Z",
+        "MatchupId": 100,
+        "TeamId": 9
+    },
+    {
+        "score": "147.04",
+        "won": true,
+        "createdAt": "2019-07-29T03:24:46.326Z",
+        "updatedAt": "2019-07-29T03:24:46.327Z",
+        "MatchupId": 101,
+        "TeamId": 1
+    },
+    {
+        "score": "138.98",
+        "won": false,
+        "createdAt": "2019-07-29T03:24:46.327Z",
+        "updatedAt": "2019-07-29T03:24:46.327Z",
+        "MatchupId": 101,
+        "TeamId": 6
+    },
+    {
+        "score": "128.58",
+        "won": false,
+        "createdAt": "2019-07-29T03:24:57.825Z",
+        "updatedAt": "2019-07-29T03:24:57.826Z",
+        "MatchupId": 102,
+        "TeamId": 4
+    },
+    {
+        "score": "156.02",
+        "won": true,
+        "createdAt": "2019-07-29T03:24:57.826Z",
+        "updatedAt": "2019-07-29T03:24:57.826Z",
+        "MatchupId": 102,
+        "TeamId": 10
+    },
+    {
+        "score": "135",
+        "won": true,
+        "createdAt": "2019-07-29T03:25:06.720Z",
+        "updatedAt": "2019-07-29T03:25:06.720Z",
+        "MatchupId": 103,
+        "TeamId": 5
+    },
+    {
+        "score": "128.12",
+        "won": false,
+        "createdAt": "2019-07-29T03:25:06.721Z",
+        "updatedAt": "2019-07-29T03:25:06.721Z",
+        "MatchupId": 103,
+        "TeamId": 8
+    },
+    {
+        "score": "173.9",
+        "won": true,
+        "createdAt": "2019-07-29T03:25:16.728Z",
+        "updatedAt": "2019-07-29T03:25:16.728Z",
+        "MatchupId": 104,
+        "TeamId": 3
+    },
+    {
+        "score": "152.14",
+        "won": false,
+        "createdAt": "2019-07-29T03:25:16.728Z",
+        "updatedAt": "2019-07-29T03:25:16.728Z",
+        "MatchupId": 104,
+        "TeamId": 10
+    },
+    {
+        "score": "189.98",
+        "won": true,
+        "createdAt": "2019-07-29T03:25:27.179Z",
+        "updatedAt": "2019-07-29T03:25:27.179Z",
+        "MatchupId": 105,
+        "TeamId": 7
+    },
+    {
+        "score": "153.22",
+        "won": false,
+        "createdAt": "2019-07-29T03:25:27.179Z",
+        "updatedAt": "2019-07-29T03:25:27.179Z",
+        "MatchupId": 105,
+        "TeamId": 2
+    },
+    {
+        "score": "102.68",
+        "won": false,
+        "createdAt": "2019-07-29T03:25:38.172Z",
+        "updatedAt": "2019-07-29T03:25:38.172Z",
+        "MatchupId": 106,
+        "TeamId": 9
+    },
+    {
+        "score": "137.4",
+        "won": true,
+        "createdAt": "2019-07-29T03:25:38.172Z",
+        "updatedAt": "2019-07-29T03:25:38.172Z",
+        "MatchupId": 106,
+        "TeamId": 6
+    },
+    {
+        "score": "135.1",
+        "won": true,
+        "createdAt": "2019-07-29T03:25:48.437Z",
+        "updatedAt": "2019-07-29T03:25:48.437Z",
+        "MatchupId": 107,
+        "TeamId": 1
+    },
+    {
+        "score": "89.18",
+        "won": false,
+        "createdAt": "2019-07-29T03:25:48.438Z",
+        "updatedAt": "2019-07-29T03:25:48.438Z",
+        "MatchupId": 107,
+        "TeamId": 8
+    },
+    {
+        "score": "151.88",
+        "won": true,
+        "createdAt": "2019-07-29T03:25:56.487Z",
+        "updatedAt": "2019-07-29T03:25:56.488Z",
+        "MatchupId": 108,
+        "TeamId": 5
+    },
+    {
+        "score": "130.9",
+        "won": false,
+        "createdAt": "2019-07-29T03:25:56.488Z",
+        "updatedAt": "2019-07-29T03:25:56.488Z",
+        "MatchupId": 108,
+        "TeamId": 4
+    },
+    {
+        "score": "190.58",
+        "won": true,
+        "createdAt": "2019-07-29T03:26:09.620Z",
+        "updatedAt": "2019-07-29T03:26:09.620Z",
+        "MatchupId": 109,
+        "TeamId": 3
+    },
+    {
+        "score": "131.92",
+        "won": false,
+        "createdAt": "2019-07-29T03:26:09.620Z",
+        "updatedAt": "2019-07-29T03:26:09.620Z",
+        "MatchupId": 109,
+        "TeamId": 5
+    },
+    {
+        "score": "121.52",
+        "won": false,
+        "createdAt": "2019-07-29T03:26:32.056Z",
+        "updatedAt": "2019-07-29T03:26:32.056Z",
+        "MatchupId": 110,
+        "TeamId": 7
+    },
+    {
+        "score": "137.84",
+        "won": true,
+        "createdAt": "2019-07-29T03:26:32.056Z",
+        "updatedAt": "2019-07-29T03:26:32.056Z",
+        "MatchupId": 110,
+        "TeamId": 10
+    },
+    {
+        "score": "129",
+        "won": false,
+        "createdAt": "2019-07-29T03:26:42.310Z",
+        "updatedAt": "2019-07-29T03:26:42.310Z",
+        "MatchupId": 111,
+        "TeamId": 2
+    },
+    {
+        "score": "164.66",
+        "won": true,
+        "createdAt": "2019-07-29T03:26:42.310Z",
+        "updatedAt": "2019-07-29T03:26:42.310Z",
+        "MatchupId": 111,
+        "TeamId": 6
+    },
+    {
+        "score": "146.78",
+        "won": true,
+        "createdAt": "2019-07-29T03:26:54.826Z",
+        "updatedAt": "2019-07-29T03:26:54.826Z",
+        "MatchupId": 112,
+        "TeamId": 1
+    },
+    {
+        "score": "129.06",
+        "won": false,
+        "createdAt": "2019-07-29T03:26:54.826Z",
+        "updatedAt": "2019-07-29T03:26:54.826Z",
+        "MatchupId": 112,
+        "TeamId": 9
+    },
+    {
+        "score": "102.16",
+        "won": false,
+        "createdAt": "2019-07-29T03:27:05.339Z",
+        "updatedAt": "2019-07-29T03:27:05.339Z",
+        "MatchupId": 113,
+        "TeamId": 4
+    },
+    {
+        "score": "121.58",
+        "won": true,
+        "createdAt": "2019-07-29T03:27:05.339Z",
+        "updatedAt": "2019-07-29T03:27:05.339Z",
+        "MatchupId": 113,
+        "TeamId": 8
+    },
+    {
+        "score": "144.9",
+        "won": true,
+        "createdAt": "2019-07-29T03:27:17.252Z",
+        "updatedAt": "2019-07-29T03:27:17.252Z",
+        "MatchupId": 114,
+        "TeamId": 3
+    },
+    {
+        "score": "107.94",
+        "won": false,
+        "createdAt": "2019-07-29T03:27:17.253Z",
+        "updatedAt": "2019-07-29T03:27:17.253Z",
+        "MatchupId": 114,
+        "TeamId": 4
+    },
+    {
+        "score": "149.02",
+        "won": true,
+        "createdAt": "2019-07-29T03:27:27.193Z",
+        "updatedAt": "2019-07-29T03:27:27.193Z",
+        "MatchupId": 115,
+        "TeamId": 7
+    },
+    {
+        "score": "146.62",
+        "won": false,
+        "createdAt": "2019-07-29T03:27:27.193Z",
+        "updatedAt": "2019-07-29T03:27:27.194Z",
+        "MatchupId": 115,
+        "TeamId": 5
+    },
+    {
+        "score": "143.86",
+        "won": true,
+        "createdAt": "2019-07-29T03:27:36.070Z",
+        "updatedAt": "2019-07-29T03:27:36.070Z",
+        "MatchupId": 116,
+        "TeamId": 10
+    },
+    {
+        "score": "134.4",
+        "won": false,
+        "createdAt": "2019-07-29T03:27:36.070Z",
+        "updatedAt": "2019-07-29T03:27:36.071Z",
+        "MatchupId": 116,
+        "TeamId": 6
+    },
+    {
+        "score": "96.08",
+        "won": false,
+        "createdAt": "2019-07-29T03:27:47.374Z",
+        "updatedAt": "2019-07-29T03:27:47.375Z",
+        "MatchupId": 117,
+        "TeamId": 1
+    },
+    {
+        "score": "146.84",
+        "won": true,
+        "createdAt": "2019-07-29T03:27:47.376Z",
+        "updatedAt": "2019-07-29T03:27:47.376Z",
+        "MatchupId": 117,
+        "TeamId": 2
+    },
+    {
+        "score": "159.68",
+        "won": true,
+        "createdAt": "2019-07-29T03:27:59.381Z",
+        "updatedAt": "2019-07-29T03:27:59.381Z",
+        "MatchupId": 118,
+        "TeamId": 9
+    },
+    {
+        "score": "141.3",
+        "won": false,
+        "createdAt": "2019-07-29T03:27:59.382Z",
+        "updatedAt": "2019-07-29T03:27:59.382Z",
+        "MatchupId": 118,
+        "TeamId": 8
+    },
+    {
+        "score": "187.48",
+        "won": true,
+        "createdAt": "2019-07-29T03:28:14.341Z",
+        "updatedAt": "2019-07-29T03:28:14.341Z",
+        "MatchupId": 119,
+        "TeamId": 3
+    },
+    {
+        "score": "90.86",
+        "won": false,
+        "createdAt": "2019-07-29T03:28:14.341Z",
+        "updatedAt": "2019-07-29T03:28:14.341Z",
+        "MatchupId": 119,
+        "TeamId": 8
+    },
+    {
+        "score": "144.1",
+        "won": true,
+        "createdAt": "2019-07-29T03:28:25.469Z",
+        "updatedAt": "2019-07-29T03:28:25.469Z",
+        "MatchupId": 120,
+        "TeamId": 7
+    },
+    {
+        "score": "140.96",
+        "won": false,
+        "createdAt": "2019-07-29T03:28:25.469Z",
+        "updatedAt": "2019-07-29T03:28:25.469Z",
+        "MatchupId": 120,
+        "TeamId": 4
+    },
+    {
+        "score": "130.6",
+        "won": false,
+        "createdAt": "2019-07-29T03:28:36.653Z",
+        "updatedAt": "2019-07-29T03:28:36.653Z",
+        "MatchupId": 121,
+        "TeamId": 6
+    },
+    {
+        "score": "135.7",
+        "won": true,
+        "createdAt": "2019-07-29T03:28:36.654Z",
+        "updatedAt": "2019-07-29T03:28:36.654Z",
+        "MatchupId": 121,
+        "TeamId": 5
+    },
+    {
+        "score": "104.86",
+        "won": false,
+        "createdAt": "2019-07-29T03:28:46.764Z",
+        "updatedAt": "2019-07-29T03:28:46.764Z",
+        "MatchupId": 122,
+        "TeamId": 1
+    },
+    {
+        "score": "158.24",
+        "won": true,
+        "createdAt": "2019-07-29T03:28:46.764Z",
+        "updatedAt": "2019-07-29T03:28:46.764Z",
+        "MatchupId": 122,
+        "TeamId": 10
+    },
+    {
+        "score": "133.52",
+        "won": true,
+        "createdAt": "2019-07-29T03:28:55.484Z",
+        "updatedAt": "2019-07-29T03:28:55.484Z",
+        "MatchupId": 123,
+        "TeamId": 9
+    },
+    {
+        "score": "131.7",
+        "won": false,
+        "createdAt": "2019-07-29T03:28:55.484Z",
+        "updatedAt": "2019-07-29T03:28:55.484Z",
+        "MatchupId": 123,
+        "TeamId": 2
+    },
+    {
+        "score": "184.52",
+        "won": true,
+        "createdAt": "2019-07-29T03:29:06.264Z",
+        "updatedAt": "2019-07-29T03:29:06.264Z",
+        "MatchupId": 124,
+        "TeamId": 3
+    },
+    {
+        "score": "120.56",
+        "won": false,
+        "createdAt": "2019-07-29T03:29:06.264Z",
+        "updatedAt": "2019-07-29T03:29:06.264Z",
+        "MatchupId": 124,
+        "TeamId": 7
+    },
+    {
+        "score": "102.1",
+        "won": true,
+        "createdAt": "2019-07-29T03:29:13.358Z",
+        "updatedAt": "2019-07-29T03:29:13.358Z",
+        "MatchupId": 125,
+        "TeamId": 6
+    },
+    {
+        "score": "84.76",
+        "won": false,
+        "createdAt": "2019-07-29T03:29:13.358Z",
+        "updatedAt": "2019-07-29T03:29:13.358Z",
+        "MatchupId": 125,
+        "TeamId": 4
+    },
+    {
+        "score": "145.22",
+        "won": false,
+        "createdAt": "2019-07-29T03:29:24.228Z",
+        "updatedAt": "2019-07-29T03:29:24.228Z",
+        "MatchupId": 126,
+        "TeamId": 1
+    },
+    {
+        "score": "165.24",
+        "won": true,
+        "createdAt": "2019-07-29T03:29:24.228Z",
+        "updatedAt": "2019-07-29T03:29:24.228Z",
+        "MatchupId": 126,
+        "TeamId": 5
+    },
+    {
+        "score": "177.54",
+        "won": false,
+        "createdAt": "2019-07-29T03:29:33.590Z",
+        "updatedAt": "2019-07-29T03:29:33.590Z",
+        "MatchupId": 127,
+        "TeamId": 9
+    },
+    {
+        "score": "194.2",
+        "won": true,
+        "createdAt": "2019-07-29T03:29:33.590Z",
+        "updatedAt": "2019-07-29T03:29:33.590Z",
+        "MatchupId": 127,
+        "TeamId": 10
+    },
+    {
+        "score": "163.14",
+        "won": true,
+        "createdAt": "2019-07-29T03:29:46.750Z",
+        "updatedAt": "2019-07-29T03:29:46.750Z",
+        "MatchupId": 128,
+        "TeamId": 2
+    },
+    {
+        "score": "111.66",
+        "won": false,
+        "createdAt": "2019-07-29T03:29:46.750Z",
+        "updatedAt": "2019-07-29T03:29:46.751Z",
+        "MatchupId": 128,
+        "TeamId": 8
+    },
+    {
+        "score": "174.28",
+        "won": true,
+        "createdAt": "2019-07-29T03:29:59.544Z",
+        "updatedAt": "2019-07-29T03:29:59.544Z",
+        "MatchupId": 129,
+        "TeamId": 3
+    },
+    {
+        "score": "121.44",
+        "won": false,
+        "createdAt": "2019-07-29T03:29:59.544Z",
+        "updatedAt": "2019-07-29T03:29:59.544Z",
+        "MatchupId": 129,
+        "TeamId": 6
+    },
+    {
+        "score": "141.12",
+        "won": true,
+        "createdAt": "2019-07-29T03:30:11.097Z",
+        "updatedAt": "2019-07-29T03:30:11.097Z",
+        "MatchupId": 130,
+        "TeamId": 7
+    },
+    {
+        "score": "93.6",
+        "won": false,
+        "createdAt": "2019-07-29T03:30:11.097Z",
+        "updatedAt": "2019-07-29T03:30:11.097Z",
+        "MatchupId": 130,
+        "TeamId": 8
+    },
+    {
+        "score": "155.96",
+        "won": true,
+        "createdAt": "2019-07-29T03:30:23.473Z",
+        "updatedAt": "2019-07-29T03:30:23.473Z",
+        "MatchupId": 131,
+        "TeamId": 1
+    },
+    {
+        "score": "82.78",
+        "won": false,
+        "createdAt": "2019-07-29T03:30:23.473Z",
+        "updatedAt": "2019-07-29T03:30:23.473Z",
+        "MatchupId": 131,
+        "TeamId": 4
+    },
+    {
+        "score": "88.52",
+        "won": false,
+        "createdAt": "2019-07-29T03:30:32.966Z",
+        "updatedAt": "2019-07-29T03:30:32.966Z",
+        "MatchupId": 132,
+        "TeamId": 9
+    },
+    {
+        "score": "182.9",
+        "won": true,
+        "createdAt": "2019-07-29T03:30:32.966Z",
+        "updatedAt": "2019-07-29T03:30:32.966Z",
+        "MatchupId": 132,
+        "TeamId": 5
+    },
+    {
+        "score": "177.02",
+        "won": true,
+        "createdAt": "2019-07-29T03:30:44.191Z",
+        "updatedAt": "2019-07-29T03:30:44.191Z",
+        "MatchupId": 133,
+        "TeamId": 10
+    },
+    {
+        "score": "129.64",
+        "won": false,
+        "createdAt": "2019-07-29T03:30:44.191Z",
+        "updatedAt": "2019-07-29T03:30:44.191Z",
+        "MatchupId": 133,
+        "TeamId": 2
+    },
+    {
+        "score": "153.54",
+        "won": false,
+        "createdAt": "2019-07-29T03:30:57.333Z",
+        "updatedAt": "2019-07-29T03:30:57.334Z",
+        "MatchupId": 134,
+        "TeamId": 3
+    },
+    {
+        "score": "168.32",
+        "won": true,
+        "createdAt": "2019-07-29T03:30:57.334Z",
+        "updatedAt": "2019-07-29T03:30:57.334Z",
+        "MatchupId": 134,
+        "TeamId": 1
+    },
+    {
+        "score": "139.58",
+        "won": false,
+        "createdAt": "2019-07-29T03:31:11.607Z",
+        "updatedAt": "2019-07-29T03:31:11.607Z",
+        "MatchupId": 135,
+        "TeamId": 6
+    },
+    {
+        "score": "148.98",
+        "won": true,
+        "createdAt": "2019-07-29T03:31:11.607Z",
+        "updatedAt": "2019-07-29T03:31:11.608Z",
+        "MatchupId": 135,
+        "TeamId": 7
+    },
+    {
+        "score": "156.98",
+        "won": true,
+        "createdAt": "2019-07-29T03:31:31.278Z",
+        "updatedAt": "2019-07-29T03:31:31.278Z",
+        "MatchupId": 136,
+        "TeamId": 9
+    },
+    {
+        "score": "119.72",
+        "won": false,
+        "createdAt": "2019-07-29T03:31:31.279Z",
+        "updatedAt": "2019-07-29T03:31:31.279Z",
+        "MatchupId": 136,
+        "TeamId": 4
+    },
+    {
+        "score": "129.24",
+        "won": false,
+        "createdAt": "2019-07-29T03:31:42.063Z",
+        "updatedAt": "2019-07-29T03:31:42.064Z",
+        "MatchupId": 137,
+        "TeamId": 2
+    },
+    {
+        "score": "168.66",
+        "won": true,
+        "createdAt": "2019-07-29T03:31:42.064Z",
+        "updatedAt": "2019-07-29T03:31:42.064Z",
+        "MatchupId": 137,
+        "TeamId": 5
+    },
+    {
+        "score": "169.34",
+        "won": true,
+        "createdAt": "2019-07-29T03:31:55.170Z",
+        "updatedAt": "2019-07-29T03:31:55.170Z",
+        "MatchupId": 138,
+        "TeamId": 10
+    },
+    {
+        "score": "36.84",
+        "won": false,
+        "createdAt": "2019-07-29T03:31:55.170Z",
+        "updatedAt": "2019-07-29T03:31:55.170Z",
+        "MatchupId": 138,
+        "TeamId": 8
+    },
+    {
+        "score": "111.5",
+        "won": false,
+        "createdAt": "2019-07-29T03:32:08.465Z",
+        "updatedAt": "2019-07-29T03:32:08.465Z",
+        "MatchupId": 139,
+        "TeamId": 3
+    },
+    {
+        "score": "133.46",
+        "won": true,
+        "createdAt": "2019-07-29T03:32:08.465Z",
+        "updatedAt": "2019-07-29T03:32:08.465Z",
+        "MatchupId": 139,
+        "TeamId": 9
+    },
+    {
+        "score": "160.7",
+        "won": true,
+        "createdAt": "2019-07-29T03:32:17.639Z",
+        "updatedAt": "2019-07-29T03:32:17.639Z",
+        "MatchupId": 140,
+        "TeamId": 7
+    },
+    {
+        "score": "127.3",
+        "won": false,
+        "createdAt": "2019-07-29T03:32:17.639Z",
+        "updatedAt": "2019-07-29T03:32:17.639Z",
+        "MatchupId": 140,
+        "TeamId": 1
+    },
+    {
+        "score": "75.74",
+        "won": false,
+        "createdAt": "2019-07-29T03:32:35.143Z",
+        "updatedAt": "2019-07-29T03:32:35.144Z",
+        "MatchupId": 141,
+        "TeamId": 6
+    },
+    {
+        "score": "114.6",
+        "won": true,
+        "createdAt": "2019-07-29T03:32:35.144Z",
+        "updatedAt": "2019-07-29T03:32:35.144Z",
+        "MatchupId": 141,
+        "TeamId": 8
+    },
+    {
+        "score": "122.56",
+        "won": true,
+        "createdAt": "2019-07-29T03:32:43.408Z",
+        "updatedAt": "2019-07-29T03:32:43.408Z",
+        "MatchupId": 142,
+        "TeamId": 2
+    },
+    {
+        "score": "92.62",
+        "won": false,
+        "createdAt": "2019-07-29T03:32:43.408Z",
+        "updatedAt": "2019-07-29T03:32:43.409Z",
+        "MatchupId": 142,
+        "TeamId": 4
+    },
+    {
+        "score": "128.44",
+        "won": false,
+        "createdAt": "2019-07-29T03:32:52.444Z",
+        "updatedAt": "2019-07-29T03:32:52.445Z",
+        "MatchupId": 143,
+        "TeamId": 10
+    },
+    {
+        "score": "142.1",
+        "won": true,
+        "createdAt": "2019-07-29T03:32:52.445Z",
+        "updatedAt": "2019-07-29T03:32:52.445Z",
+        "MatchupId": 143,
+        "TeamId": 5
+    },
+    {
+        "score": "141.3",
+        "won": true,
+        "createdAt": "2019-07-29T03:33:14.545Z",
+        "updatedAt": "2019-07-29T03:33:14.546Z",
+        "MatchupId": 144,
+        "TeamId": 3
+    },
+    {
+        "score": "98.92",
+        "won": false,
+        "createdAt": "2019-07-29T03:33:14.546Z",
+        "updatedAt": "2019-07-29T03:33:14.546Z",
+        "MatchupId": 144,
+        "TeamId": 2
+    },
+    {
+        "score": "144.08",
+        "won": true,
+        "createdAt": "2019-07-29T03:33:23.791Z",
+        "updatedAt": "2019-07-29T03:33:23.792Z",
+        "MatchupId": 145,
+        "TeamId": 7
+    },
+    {
+        "score": "84.08",
+        "won": false,
+        "createdAt": "2019-07-29T03:33:23.792Z",
+        "updatedAt": "2019-07-29T03:33:23.792Z",
+        "MatchupId": 145,
+        "TeamId": 9
+    },
+    {
+        "score": "174.08",
+        "won": true,
+        "createdAt": "2019-07-29T03:33:35.292Z",
+        "updatedAt": "2019-07-29T03:33:35.292Z",
+        "MatchupId": 146,
+        "TeamId": 1
+    },
+    {
+        "score": "143.1",
+        "won": false,
+        "createdAt": "2019-07-29T03:33:35.293Z",
+        "updatedAt": "2019-07-29T03:33:35.293Z",
+        "MatchupId": 146,
+        "TeamId": 6
+    },
+    {
+        "score": "0",
+        "won": false,
+        "createdAt": "2019-07-29T03:33:52.633Z",
+        "updatedAt": "2019-07-29T03:33:52.633Z",
+        "MatchupId": 147,
+        "TeamId": 4
+    },
+    {
+        "score": "106.74",
+        "won": true,
+        "createdAt": "2019-07-29T03:33:52.633Z",
+        "updatedAt": "2019-07-29T03:33:52.633Z",
+        "MatchupId": 147,
+        "TeamId": 10
+    },
+    {
+        "score": "148.68",
+        "won": true,
+        "createdAt": "2019-07-29T03:34:02.830Z",
+        "updatedAt": "2019-07-29T03:34:02.830Z",
+        "MatchupId": 148,
+        "TeamId": 5
+    },
+    {
+        "score": "83.14",
+        "won": false,
+        "createdAt": "2019-07-29T03:34:02.830Z",
+        "updatedAt": "2019-07-29T03:34:02.830Z",
+        "MatchupId": 148,
+        "TeamId": 8
+    },
+    {
+        "score": "116.26",
+        "won": true,
+        "createdAt": "2019-07-29T03:34:20.653Z",
+        "updatedAt": "2019-07-29T03:34:20.654Z",
+        "MatchupId": 149,
+        "TeamId": 3
+    },
+    {
+        "score": "112.48",
+        "won": false,
+        "createdAt": "2019-07-29T03:34:20.654Z",
+        "updatedAt": "2019-07-29T03:34:20.654Z",
+        "MatchupId": 149,
+        "TeamId": 5
+    },
+    {
+        "score": "154.22",
+        "won": true,
+        "createdAt": "2019-07-29T03:34:30.176Z",
+        "updatedAt": "2019-07-29T03:34:30.176Z",
+        "MatchupId": 150,
+        "TeamId": 10
+    },
+    {
+        "score": "107.42",
+        "won": false,
+        "createdAt": "2019-07-29T03:34:30.177Z",
+        "updatedAt": "2019-07-29T03:34:30.177Z",
+        "MatchupId": 150,
+        "TeamId": 7
+    },
+    {
+        "score": "134.66",
+        "won": true,
+        "createdAt": "2019-07-29T03:34:45.590Z",
+        "updatedAt": "2019-07-29T03:34:45.590Z",
+        "MatchupId": 151,
+        "TeamId": 1
+    },
+    {
+        "score": "117.08",
+        "won": false,
+        "createdAt": "2019-07-29T03:34:45.590Z",
+        "updatedAt": "2019-07-29T03:34:45.591Z",
+        "MatchupId": 151,
+        "TeamId": 2
+    },
+    {
+        "score": "89.12",
+        "won": false,
+        "createdAt": "2019-07-29T03:34:56.379Z",
+        "updatedAt": "2019-07-29T03:34:56.379Z",
+        "MatchupId": 152,
+        "TeamId": 6
+    },
+    {
+        "score": "117.46",
+        "won": true,
+        "createdAt": "2019-07-29T03:34:56.379Z",
+        "updatedAt": "2019-07-29T03:34:56.379Z",
+        "MatchupId": 152,
+        "TeamId": 9
+    },
+    {
+        "score": "148.34",
+        "won": false,
+        "createdAt": "2019-07-29T03:35:13.167Z",
+        "updatedAt": "2019-07-29T03:35:13.167Z",
+        "MatchupId": 153,
+        "TeamId": 3
+    },
+    {
+        "score": "173.24",
+        "won": true,
+        "createdAt": "2019-07-29T03:35:13.168Z",
+        "updatedAt": "2019-07-29T03:35:13.168Z",
+        "MatchupId": 153,
+        "TeamId": 10
+    },
+    {
+        "score": "135.84",
+        "won": true,
+        "createdAt": "2019-07-29T03:35:23.353Z",
+        "updatedAt": "2019-07-29T03:35:23.354Z",
+        "MatchupId": 154,
+        "TeamId": 5
+    },
+    {
+        "score": "130.22",
+        "won": false,
+        "createdAt": "2019-07-29T03:35:23.354Z",
+        "updatedAt": "2019-07-29T03:35:23.354Z",
+        "MatchupId": 154,
+        "TeamId": 7
+    },
+    {
+        "score": "140.82",
+        "won": false,
+        "createdAt": "2019-07-29T03:35:39.324Z",
+        "updatedAt": "2019-07-29T03:35:39.325Z",
+        "MatchupId": 155,
+        "TeamId": 1
+    },
+    {
+        "score": "172.26",
+        "won": true,
+        "createdAt": "2019-07-29T03:35:39.325Z",
+        "updatedAt": "2019-07-29T03:35:39.325Z",
+        "MatchupId": 155,
+        "TeamId": 9
+    },
+    {
+        "score": "117.34",
+        "won": true,
+        "createdAt": "2019-07-29T03:35:48.300Z",
+        "updatedAt": "2019-07-29T03:35:48.300Z",
+        "MatchupId": 156,
+        "TeamId": 2
+    },
+    {
+        "score": "54.44",
+        "won": false,
+        "createdAt": "2019-07-29T03:35:48.300Z",
+        "updatedAt": "2019-07-29T03:35:48.301Z",
+        "MatchupId": 156,
+        "TeamId": 6
+    }
+]
