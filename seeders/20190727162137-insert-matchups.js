@@ -16,6 +16,8 @@ const calebTeamId = 11;
 const devinTeamId = 12;
 const brandonTeamId = 13;
 const keginTeamId = 14;
+const kyleTeamId = 14;
+const tylerTeamId = 14;
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
@@ -1308,6 +1310,580 @@ module.exports = {
             AwayTeamId: johnTeamId,
             WeekId: weekIds[31].id,
             MatchupTypeId: 4,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          // 2019 Week 1
+          {
+            HomeTeamId: brettTeamId,
+            AwayTeamId: benTeamId,
+            WeekId: weekIds[32].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: kyleTeamId,
+            AwayTeamId: tylerTeamId,
+            WeekId: weekIds[32].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: jeffTeamId,
+            AwayTeamId: caelanTeamId,
+            WeekId: weekIds[32].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: cjTeamId,
+            AwayTeamId: johnTeamId,
+            WeekId: weekIds[32].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: samTeamId,
+            AwayTeamId: joeyTeamId,
+            WeekId: weekIds[32].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          // 2019 Week 2
+          {
+            HomeTeamId: brettTeamId,
+            AwayTeamId: kyleTeamId,
+            WeekId: weekIds[33].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: benTeamId,
+            AwayTeamId: joeyTeamId,
+            WeekId: weekIds[33].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: jeffTeamId,
+            AwayTeamId: tylerTeamId,
+            WeekId: weekIds[33].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: cjTeamId,
+            AwayTeamId: caelanTeamId,
+            WeekId: weekIds[33].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: samTeamId,
+            AwayTeamId: johnTeamId,
+            WeekId: weekIds[33].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          // 2019 Week 3
+          {
+            HomeTeamId: brettTeamId,
+            AwayTeamId: jeffTeamId,
+            WeekId: weekIds[34].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: benTeamId,
+            AwayTeamId: kyleTeamId,
+            WeekId: weekIds[34].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: cjTeamId,
+            AwayTeamId: tylerTeamId,
+            WeekId: weekIds[34].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: samTeamId,
+            AwayTeamId: caelanTeamId,
+            WeekId: weekIds[34].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: johnTeamId,
+            AwayTeamId: joeyTeamId,
+            WeekId: weekIds[34].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          // 2019 Week 4
+          {
+            HomeTeamId: brettTeamId,
+            AwayTeamId: cjTeamId,
+            WeekId: weekIds[35].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: benTeamId,
+            AwayTeamId: jeffTeamId,
+            WeekId: weekIds[35].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: kyleTeamId,
+            AwayTeamId: joeyTeamId,
+            WeekId: weekIds[35].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: samTeamId,
+            AwayTeamId: tylerTeamId,
+            WeekId: weekIds[35].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: johnTeamId,
+            AwayTeamId: caelanTeamId,
+            WeekId: weekIds[35].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          // 2019 Week 5
+          {
+            HomeTeamId: brettTeamId,
+            AwayTeamId: samTeamId,
+            WeekId: weekIds[36].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: benTeamId,
+            AwayTeamId: cjTeamId,
+            WeekId: weekIds[36].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: kyleTeamId,
+            AwayTeamId: jeffTeamId,
+            WeekId: weekIds[36].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: johnTeamId,
+            AwayTeamId: tylerTeamId,
+            WeekId: weekIds[36].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: caelanTeamId,
+            AwayTeamId: joeyTeamId,
+            WeekId: weekIds[36].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          // 2019 Week 6
+          {
+            HomeTeamId: brettTeamId,
+            AwayTeamId: johnTeamId,
+            WeekId: weekIds[37].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: benTeamId,
+            AwayTeamId: samTeamId,
+            WeekId: weekIds[37].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: kyleTeamId,
+            AwayTeamId: cjTeamId,
+            WeekId: weekIds[37].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: jeffTeamId,
+            AwayTeamId: joeyTeamId,
+            WeekId: weekIds[37].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: caelanTeamId,
+            AwayTeamId: tylerTeamId,
+            WeekId: weekIds[37].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          // 2019 Week 7
+          {
+            HomeTeamId: brettTeamId,
+            AwayTeamId: caelanTeamId,
+            WeekId: weekIds[38].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: benTeamId,
+            AwayTeamId: johnTeamId,
+            WeekId: weekIds[38].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: kyleTeamId,
+            AwayTeamId: samTeamId,
+            WeekId: weekIds[38].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: jeffTeamId,
+            AwayTeamId: cjTeamId,
+            WeekId: weekIds[38].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: tylerTeamId,
+            AwayTeamId: joeyTeamId,
+            WeekId: weekIds[38].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          // 2019 Week 8
+          {
+            HomeTeamId: brettTeamId,
+            AwayTeamId: tylerTeamId,
+            WeekId: weekIds[39].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: benTeamId,
+            AwayTeamId: caelanTeamId,
+            WeekId: weekIds[39].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: kyleTeamId,
+            AwayTeamId: johnTeamId,
+            WeekId: weekIds[39].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: jeffTeamId,
+            AwayTeamId: samTeamId,
+            WeekId: weekIds[39].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: cjTeamId,
+            AwayTeamId: joeyTeamId,
+            WeekId: weekIds[39].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          // 2019 Week 9
+          {
+            HomeTeamId: brettTeamId,
+            AwayTeamId: joeyTeamId,
+            WeekId: weekIds[40].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: benTeamId,
+            AwayTeamId: tylerTeamId,
+            WeekId: weekIds[40].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: kyleTeamId,
+            AwayTeamId: caelanTeamId,
+            WeekId: weekIds[40].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: jeffTeamId,
+            AwayTeamId: johnTeamId,
+            WeekId: weekIds[40].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: cjTeamId,
+            AwayTeamId: samTeamId,
+            WeekId: weekIds[40].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          // 2019 Week 10
+          {
+            HomeTeamId: brettTeamId,
+            AwayTeamId: benTeamId,
+            WeekId: weekIds[41].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: kyleTeamId,
+            AwayTeamId: tylerTeamId,
+            WeekId: weekIds[41].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: jeffTeamId,
+            AwayTeamId: caelanTeamId,
+            WeekId: weekIds[41].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: cjTeamId,
+            AwayTeamId: johnTeamId,
+            WeekId: weekIds[41].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: samTeamId,
+            AwayTeamId: joeyTeamId,
+            WeekId: weekIds[41].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          // 2019 Week 11
+          {
+            HomeTeamId: brettTeamId,
+            AwayTeamId: kyleTeamId,
+            WeekId: weekIds[42].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: benTeamId,
+            AwayTeamId: joeyTeamId,
+            WeekId: weekIds[42].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: jeffTeamId,
+            AwayTeamId: tylerTeamId,
+            WeekId: weekIds[42].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: cjTeamId,
+            AwayTeamId: caelanTeamId,
+            WeekId: weekIds[42].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: samTeamId,
+            AwayTeamId: johnTeamId,
+            WeekId: weekIds[42].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          // 2019 Week 12
+          {
+            HomeTeamId: brettTeamId,
+            AwayTeamId: jeffTeamId,
+            WeekId: weekIds[43].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: benTeamId,
+            AwayTeamId: kyleTeamId,
+            WeekId: weekIds[43].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: cjTeamId,
+            AwayTeamId: tylerTeamId,
+            WeekId: weekIds[43].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: samTeamId,
+            AwayTeamId: caelanTeamId,
+            WeekId: weekIds[43].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: johnTeamId,
+            AwayTeamId: joeyTeamId,
+            WeekId: weekIds[43].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          // 2019 Week 13
+          {
+            HomeTeamId: brettTeamId,
+            AwayTeamId: cjTeamId,
+            WeekId: weekIds[44].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: benTeamId,
+            AwayTeamId: jeffTeamId,
+            WeekId: weekIds[44].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: kyleTeamId,
+            AwayTeamId: joeyTeamId,
+            WeekId: weekIds[44].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: samTeamId,
+            AwayTeamId: tylerTeamId,
+            WeekId: weekIds[44].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: johnTeamId,
+            AwayTeamId: caelanTeamId,
+            WeekId: weekIds[44].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          // 2019 Week 14
+          {
+            HomeTeamId: brettTeamId,
+            AwayTeamId: samTeamId,
+            WeekId: weekIds[45].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: benTeamId,
+            AwayTeamId: cjTeamId,
+            WeekId: weekIds[45].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: kyleTeamId,
+            AwayTeamId: jeffTeamId,
+            WeekId: weekIds[45].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: johnTeamId,
+            AwayTeamId: tylerTeamId,
+            WeekId: weekIds[45].id,
+            MatchupTypeId: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            HomeTeamId: caelanTeamId,
+            AwayTeamId: joeyTeamId,
+            WeekId: weekIds[45].id,
+            MatchupTypeId: 1,
             createdAt: new Date(),
             updatedAt: new Date()
           },
