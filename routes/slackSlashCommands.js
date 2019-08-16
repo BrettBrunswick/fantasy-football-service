@@ -1,6 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const SeasonsService = require('../services/seasonService');
+const SeasonRepository = require("../repositories/seasonRepository");
+const ManagerRepository = require("../repositories/managerRepository");
+
 
 const mentionedSlackUsersRegex = /\<([^\s]+)\>/g;
 const userNameRegEx = /\|(\S+)\>/;
@@ -8,9 +10,12 @@ const yearRegEx = /(20)\d{2}/g;
 
 
 router.post('/record', async (req, res) => {
+    const slackBot = req.app.get('slackBot');
+    slackBot.notifyCommisionerOfUsage();
     console.log(req.body)
     const reqUserName = req.body.user_name
-    const allSeasons = await SeasonsService.getAllSeasons();
+    const allSeasons = await SeasonRepository.getAll();
+    const allManagers = await ManagerRepository.getAll();
     let mentionedSlackUsers = req.body.text.match(mentionedSlackUsersRegex);
     const mentionedSlackUserNames = [];
     if (mentionedSlackUsers != null) {
@@ -19,7 +24,9 @@ router.post('/record', async (req, res) => {
             console.log(`slack user: ${mentionedUser}`)
             mentionedUserName = mentionedUser.match(userNameRegEx);
             mentionedSlackUserNames.push(mentionedUserName[1]);
-            console.log(`slack user name: ${mentionedUserName[1]}`)
+            console.log(`slack user name: ${mentionedUserName[1]}`);
+            if (mentionedSlackUserNames.length > 0) {
+            }
         });
         var year = req.body.text.match(yearRegEx)
         console.log(`year: ${year}`)

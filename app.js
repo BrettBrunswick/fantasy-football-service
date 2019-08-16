@@ -20,6 +20,8 @@ app.get('/', async function(req, res) {
     res.send(l);
 });
 
+app.set('slackBot', slackBot);
+
 // Slash Command Routes
 app.use('/slack/slashCommands', require('./routes/slackSlashCommands'));
 

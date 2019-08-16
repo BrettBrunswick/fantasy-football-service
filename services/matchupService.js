@@ -1,5 +1,5 @@
-const MatchupsRepository = require("../repositories/matchups");
-const MatchupResultsRepository = require("../repositories/matchupResults");
+const MatchupsRepository = require("../repositories/matchupRepository");
+const MatchupResultsRepository = require("../repositories/matchupResultRepository");
 
 
 class MatchupService {
