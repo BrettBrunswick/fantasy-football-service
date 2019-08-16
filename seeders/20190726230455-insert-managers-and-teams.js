@@ -8,7 +8,7 @@ module.exports = {
       [
         {
           name: 'Ben',
-          slackId: "benpalme",
+          slackId: 'benpalme',
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -19,31 +19,31 @@ module.exports = {
         },
         {
           name: 'brett',
-          slackId: "brettbrun",
+          slackId: 'brettbrun',
           createdAt: new Date(),
           updatedAt: new Date()
         },
         {
           name: 'CJ',
-          slackId: "cjdavis2013",
+          slackId: 'cjdavis2013',
           createdAt: new Date(),
           updatedAt: new Date()
         },
         {
           name: 'Sam',
-          slackId: "sampalmer111",
+          slackId: 'sampalmer111',
           createdAt: new Date(),
           updatedAt: new Date()
         },
         {
           name: 'john',
-          slackId: "jkramer315",
+          slackId: 'jkramer315',
           createdAt: new Date(),
           updatedAt: new Date()
         },
         {
           name: 'Caelan',
-          slackId: "king_caelan",
+          slackId: 'king_caelan',
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -54,13 +54,13 @@ module.exports = {
         },
         {
           name: 'Joey',
-          slackId: "obrienj1993",
+          slackId: 'obrienj1993',
           createdAt: new Date(),
           updatedAt: new Date()
         },
         {
           name: 'Jeff',
-          slackId: "hall2jg",
+          slackId: 'hall2jg',
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -86,13 +86,13 @@ module.exports = {
         },
         {
           name: 'Kyle',
-          slackId: "kglaser38",
+          slackId: 'kglaser38',
           createdAt: new Date(),
           updatedAt: new Date()
         },
         {
           name: 'Tyler',
-          slackId: "tylerjeichhorn",
+          slackId: 'tylerjeichhorn',
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -190,6 +190,18 @@ module.exports = {
           {
             name: 'Kegin\'s Team',
             ManagerId: managerIds[13].id,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            name: 'The BOAT',
+            ManagerId: managerIds[14].id,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          },
+          {
+            name: 'I have a Chubb',
+            ManagerId: managerIds[15].id,
             createdAt: new Date(),
             updatedAt: new Date()
           },
