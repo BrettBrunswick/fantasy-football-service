@@ -8,6 +8,7 @@ module.exports = {
       [
         {
           name: 'Ben',
+          slackId: "benpalme",
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -18,26 +19,31 @@ module.exports = {
         },
         {
           name: 'brett',
+          slackId: "brettbrun",
           createdAt: new Date(),
           updatedAt: new Date()
         },
         {
           name: 'CJ',
+          slackId: "cjdavis2013",
           createdAt: new Date(),
           updatedAt: new Date()
         },
         {
           name: 'Sam',
+          slackId: "sampalmer111",
           createdAt: new Date(),
           updatedAt: new Date()
         },
         {
           name: 'john',
+          slackId: "jkramer315",
           createdAt: new Date(),
           updatedAt: new Date()
         },
         {
           name: 'Caelan',
+          slackId: "king_caelan",
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -48,11 +54,13 @@ module.exports = {
         },
         {
           name: 'Joey',
+          slackId: "obrienj1993",
           createdAt: new Date(),
           updatedAt: new Date()
         },
         {
           name: 'Jeff',
+          slackId: "hall2jg",
           createdAt: new Date(),
           updatedAt: new Date()
         },
@@ -73,6 +81,18 @@ module.exports = {
         },
         {
           name: 'Kegin',
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Kyle',
+          slackId: "kglaser38",
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          name: 'Tyler',
+          slackId: "tylerjeichhorn",
           createdAt: new Date(),
           updatedAt: new Date()
         },
