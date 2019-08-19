@@ -67,7 +67,8 @@ class MessageFormatter {
         },
         'accessory': {
           'type': 'image',
-          'image_url': 'https://cdn.shopify.com/s/files/1/0042/8441/6100/products/jr_smith_high_600x600.jpg?v=1544899287'
+          'image_url': 'https://cdn.shopify.com/s/files/1/0042/8441/6100/products/jr_smith_high_600x600.jpg?v=1544899287',
+          "alt_text": "WTF"
         }
       },
       {
