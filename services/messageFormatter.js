@@ -63,7 +63,7 @@ class MessageFormatter {
         'type': 'section',
         'text': {
           "type": "mrkdwn",
-          "text": `:interrobang: *ERROR* :interrobang:\n\n*Your Request:* \`${request}\`\n\n*Error:* ${error}\n\n*Try it like this:* ${recomendation}`
+          "text": `*${error}*\n\n*Your Request:*\n\`${request}\`\n\n*Try it like this:*\n${recomendation}`
         },
         'accessory': {
           'type': 'image',
@@ -77,6 +77,28 @@ class MessageFormatter {
     ];
     return { blocks: block };
   }
+
+  static formatCareerStats(stats) {
+    console.log(JSON.stringify(stats))
+    const block = 
+    [
+      {
+        'type': 'divider'
+      },
+      {
+        'type': 'section',
+        'text': {
+          "type": "mrkdwn",
+          "text": `*${stats.TeamName}'s* Career Stats:\n\n\`Record:\` *${stats.wins} - ${stats.losses}*\n\`Score:\` *${stats.score}*`
+        }
+      },
+      {
+        'type': 'divider'
+      }
+    ];
+    return { blocks: block };
+  }
+
 }
 
 module.exports = MessageFormatter;

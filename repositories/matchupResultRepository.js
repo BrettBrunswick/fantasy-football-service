@@ -24,6 +24,25 @@ class MatchupResultsRepository {
         attributes: ['TeamId', 'won', 'score']
       });
     }
+
+    static getIndividualResults(teamId, matchupIds) {
+      console.log(teamId)
+      return models.MatchupResult.findAll({
+        where: {
+            TeamId: teamId,
+            MatchupId: {
+                [Op.in]: matchupIds
+            },
+          },
+        include: [
+            { 
+              model: models.Team,
+              attributes: ['name']
+            }
+        ],
+        attributes: ['TeamId', 'won', 'score']
+      });
+    }
 }
 
 module.exports = MatchupResultsRepository;

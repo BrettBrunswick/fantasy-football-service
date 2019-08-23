@@ -150,6 +150,39 @@ class MatchupsRepository {
 
         return recentMatchups[0];
     }
+
+    static getIndividualMatchupIds(teamId, weekIds = null) {
+      if (weekIds == null) {
+        return models.Matchup.findAll({
+            where: {
+                [Op.or]: [
+                    { HomeTeamId: teamId },
+                    { AwayTeamId: teamId }
+                 ]
+            },
+            attributes: ['id']
+        });
+      } else {
+          return models.Matchup.findAll({
+            WeekId: weekIds,
+            where: {
+              [Op.or]: [
+                  { HomeTeamId: teamId },
+                  { AwayTeamId: teamId }
+               ]
+            },
+            attributes: ['id'],
+              include: [{
+                  model: models.Team, as: 'HomeTeam',
+                  attributes: ['id', 'name']
+                },
+                {
+                  model: models.Team, as: 'AwayTeam',
+                  attributes: ['id', 'name']
+                }]
+          });
+      }
+    }
     
 }
 

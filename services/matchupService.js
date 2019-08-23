@@ -15,12 +15,18 @@ class MatchupService {
     const matchupIds = await MatchupsRepository.getHeadToHeadMatchupIds(team1Id, team2Id);
 
     return matchupIds.map(x => x.id);
-}
+  }
 
 static async getLastHeadToHeadMatchup(team1Id, team2Id) {
   const result = await MatchupsRepository.getLastHeadToHeadMatchup(team1Id, team2Id);
 
   return result;
+}
+
+static async getIndividualMatchupIds(teamId) {
+  const matchupIds = await MatchupsRepository.getIndividualMatchupIds(teamId);
+
+  return matchupIds.map(x => x.id);
 }
 
 static formatWeeklyMatchups(matchups) {
@@ -122,16 +128,20 @@ static async getWeeklySummary() {
       return result;
   }
 
-  static getResultsForTeam(allMatchupResults, teamId) {
+  static getResultsForTeam(allMatchupResults, teamId, headToHead = false) {
     var teamResults = allMatchupResults.filter(item => {
         return item.TeamId === teamId
-        });
+    });
     
-    return this.prettyStats(teamResults);
+    return headToHead ? this.prettyStats(teamResults) : this.prettyStats(teamResults, true);
   }
 
   static countWins(teamResults) {
     return teamResults.filter(x => x.won).length
+  }
+
+  static countLosses(teamResults) {
+    return teamResults.filter(x => !x.won).length
   }
 
   static sumScore(teamResults) {
@@ -142,18 +152,37 @@ static async getWeeklySummary() {
       return score.toFixed(2);
   }
 
-  static prettyStats(teamResults) {
-    var result = {
-      TeamName: teamResults[0].Team.name,
-      wins: this.countWins(teamResults),
-      score: this.sumScore(teamResults)
-    };
-    
+  static prettyStats(teamResults, countLosses = false) {
+    if (countLosses) {
+      var result = {
+        TeamName: teamResults[0].Team.name,
+        wins: this.countWins(teamResults),
+        losses: this.countLosses(teamResults),
+        score: this.sumScore(teamResults)
+      };
+    } else {
+      var result = {
+        TeamName: teamResults[0].Team.name,
+        wins: this.countWins(teamResults),
+        score: this.sumScore(teamResults)
+      };
+    }
+  
     return result;
   }
 
   static sortNumber(a, b) {
     return b - a;
+  }
+
+  static async getCarrerStats(teamId) {
+    const matchupIds = await this.getIndividualMatchupIds(teamId);
+    let results = await MatchupResultsRepository.getIndividualResults(teamId, matchupIds);
+    results = this.getResultsForTeam(results, teamId);
+
+    console.log(JSON.stringify(results))
+
+    return results;
   }
 }
 
