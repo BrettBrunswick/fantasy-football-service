@@ -78,7 +78,6 @@ static async getWeeklySummary() {
 
     if (seasonsWithMatchups.length > 0) {
       // Played each other
-      console.log(JSON.stringify(seasonsWithMatchups));
       let newResult = {
         seasons: []
       };
@@ -114,9 +113,6 @@ static async getWeeklySummary() {
       const team2TotalResults = this.getResultsForTeam(totalResults, team2Id);
       newResult.totals = this.combineResults(team1TotalResults, team2TotalResults);
 
-
-      console.log(JSON.stringify(newResult));
-
       return newResult;
 
     } else {
@@ -131,7 +127,6 @@ static async getWeeklySummary() {
       return results.won == true
     })
 
-    console.log(`winning: ${JSON.stringify(winningTeam)}`);
     const result = {
       week: lastMatchup.Week.week,
       season: lastMatchup.Week.Season.year,
@@ -234,8 +229,6 @@ static async getWeeklySummary() {
     const matchupIds = await this.getIndividualMatchupIds(teamId);
     let results = await MatchupResultsRepository.getIndividualResults(teamId, matchupIds);
     results = this.getResultsForTeam(results, teamId);
-
-    console.log(JSON.stringify(results))
 
     return results;
   }

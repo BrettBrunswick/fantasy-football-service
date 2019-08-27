@@ -47,8 +47,7 @@ class MessageFormatter {
       };
 
       block.push(managerIntro);
-      block.push(divider);
-
+      
       matchup.headToHead.seasons.forEach(season => {
         const seasonSummary = {
             type: 'section',

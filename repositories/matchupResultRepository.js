@@ -17,7 +17,11 @@ class MatchupResultsRepository {
         include: [
             { 
               model: models.Team,
-              attributes: ['name']
+              attributes: ['name'],
+              include: [{
+                model: models.Manager,
+                attributes: ['slackId']
+              }]
             }
         ],
         order: ['TeamId'],
@@ -26,7 +30,6 @@ class MatchupResultsRepository {
     }
 
     static getIndividualResults(teamId, matchupIds) {
-      console.log(teamId)
       return models.MatchupResult.findAll({
         where: {
             TeamId: teamId,
