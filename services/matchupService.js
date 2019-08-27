@@ -1,5 +1,6 @@
 const MatchupsRepository = require("../repositories/matchupRepository");
 const MatchupResultsRepository = require("../repositories/matchupResultRepository");
+const SeasonRepository = require("../repositories/seasonRepository");
 
 
 class MatchupService {
@@ -50,7 +51,7 @@ static async getWeeklySummary() {
   let matchups = await this.getThisWeeksMatchups();
   matchups = this.formatWeeklyMatchups(matchups);
   for (const matchup of matchups.matchups) {
-    matchup.headToHead = await this.getHeadToHeadResults(matchup.HomeTeam.id, matchup.AwayTeam.id)
+    matchup.headToHead = await this.getHeadToHeadResultsWithSeason(matchup.HomeTeam.id, matchup.AwayTeam.id)
   }
 
   return matchups;
@@ -58,16 +59,70 @@ static async getWeeklySummary() {
 
   static async getHeadToHeadResults(team1Id, team2Id) {
     const matchupIds = await this.getHeadToHeadMatchupIds(team1Id, team2Id);
-    const results = await MatchupResultsRepository.getHeadToHeadResults(team1Id, team2Id, matchupIds);
-    const team1Results = this.getResultsForTeam(results, team1Id);
-    const team2Results = this.getResultsForTeam(results, team2Id);
-    const result = this.combineResults(team1Results, team2Results);
-    const lastMatchup = await this.getLastHeadToHeadMatchup(team1Id, team2Id);
-    const prettyLastMatchup = this.prettyLastMatchup(lastMatchup);
+      const results = await MatchupResultsRepository.getHeadToHeadResults(team1Id, team2Id, matchupIds);
+      const team1Results = this.getResultsForTeam(results, team1Id);
+      const team2Results = this.getResultsForTeam(results, team2Id);
+      const result = this.combineResults(team1Results, team2Results);
+      const lastMatchup = await this.getLastHeadToHeadMatchup(team1Id, team2Id);
+      const prettyLastMatchup = this.prettyLastMatchup(lastMatchup);
+
+    //const seasonsBothPlayed = Seasons
 
     result.lastMatchup = prettyLastMatchup;
 
     return result;
+  }
+
+  static async getHeadToHeadResultsWithSeason(team1Id, team2Id) {
+    const seasonsWithMatchups = await SeasonRepository.getHeadToHeadSeasonsWithMatchups(team1Id, team2Id);
+
+    if (seasonsWithMatchups.length > 0) {
+      // Played each other
+      console.log(JSON.stringify(seasonsWithMatchups));
+      let newResult = {
+        seasons: []
+      };
+      let allMatchupIds = [];
+      seasonsWithMatchups.forEach(season => {
+        let seasonMatchupIds = [];
+        season.Weeks.forEach(week => {
+          seasonMatchupIds.push(week.Matchups[0].id);
+          allMatchupIds.push(week.Matchups[0].id);
+        })
+        const elememt = {
+          year: season.year,
+          matchupIds: seasonMatchupIds
+        };
+        newResult.seasons.push(elememt)
+      });
+      
+      for (const season of newResult.seasons) {
+        const results = await MatchupResultsRepository.getHeadToHeadResults(team1Id, team2Id, season.matchupIds);
+        const team1Results = this.getResultsForTeam(results, team1Id);
+        const team2Results = this.getResultsForTeam(results, team2Id);
+        season.results = this.combineResults(team1Results, team2Results);
+      }
+      const lastMatchup = await this.getLastHeadToHeadMatchup(team1Id, team2Id);
+      const prettyLastMatchup = this.prettyLastMatchup(lastMatchup);
+
+      newResult.lastMatchup = prettyLastMatchup;
+
+
+      // Totals
+      const totalResults = await MatchupResultsRepository.getHeadToHeadResults(team1Id, team2Id, allMatchupIds);
+      const team1TotalResults = this.getResultsForTeam(totalResults, team1Id);
+      const team2TotalResults = this.getResultsForTeam(totalResults, team2Id);
+      newResult.totals = this.combineResults(team1TotalResults, team2TotalResults);
+
+
+      console.log(JSON.stringify(newResult));
+
+      return newResult;
+
+    } else {
+      // Never played each other
+      return null;
+    }
   }
 
   static prettyLastMatchup(lastMatchup) {

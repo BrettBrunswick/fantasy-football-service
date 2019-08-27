@@ -38,17 +38,50 @@ class MessageFormatter {
     block.push(divider);
 
     summary.matchups.forEach(matchup => {
-        const matchupSummary = {
+      const managerIntro = {
+          type: 'section',
+          text: {
+              type: 'mrkdwn',
+              text: `\n${matchup.HomeTeam.Manager.slackId}'s *_${matchup.HomeTeam.name}_* vs. ${matchup.AwayTeam.Manager.slackId}'s *_${matchup.AwayTeam.name}_*\n`
+          }
+      };
+
+      block.push(managerIntro);
+      block.push(divider);
+
+      matchup.headToHead.seasons.forEach(season => {
+        const seasonSummary = {
             type: 'section',
             text: {
                 type: 'mrkdwn',
-                text: `${matchup.HomeTeam.Manager.name}'s *_${matchup.HomeTeam.name}_* vs. ${matchup.AwayTeam.Manager.name}'s *_${matchup.AwayTeam.name}_*\n\`Lifetime Record:\` *${matchup.headToHead.record}* in favor of *_${matchup.headToHead.winningTeam}_*.\n\`Lifetime Score:\` *${matchup.headToHead.score}* in favor of *_${matchup.headToHead.highScoreTeam}_*.\n\`Last Matchup:\` _${matchup.headToHead.lastMatchup.matchupType} ${matchup.headToHead.lastMatchup.season} Week ${matchup.headToHead.lastMatchup.week}_: *${matchup.headToHead.lastMatchup.score}* in favor of *_${matchup.headToHead.lastMatchup.winningTeam}_*.`
+                text: `*${season.year}:*\n\`Record:\` *${season.results.record}* in favor of *_${season.results.winningTeam}_*.\n\`Score:\` *${season.results.score}* in favor of *_${season.results.highScoreTeam}_*.\n`
             }
         };
+  
+        block.push(seasonSummary);
+      })
+  
+      const lastMatchupSummary = {
+          type: 'section',
+          text: {
+              type: 'mrkdwn',
+              text: `\`Last Matchup:\` _${matchup.headToHead.lastMatchup.matchupType} ${matchup.headToHead.lastMatchup.season} Week ${matchup.headToHead.lastMatchup.week}_: *${matchup.headToHead.lastMatchup.score}* in favor of *_${matchup.headToHead.lastMatchup.winningTeam}_*.`
+          }
+      };
 
-        block.push(matchupSummary);
-        block.push(divider);
-    })
+      block.push(lastMatchupSummary);
+  
+      const totalSummary = {
+          type: 'section',
+          text: {
+              type: 'mrkdwn',
+              text: `\`Lifetime Record:\` *${matchup.headToHead.totals.record}* in favor of *_${matchup.headToHead.totals.winningTeam}_*.\n\`Lifetime Score:\` *${matchup.headToHead.totals.score}* in favor of *_${matchup.headToHead.totals.highScoreTeam}_*.`
+          }
+      };
+  
+      block.push(totalSummary);
+      block.push(divider);
+  });
 
     return { blocks: block };
   }
