@@ -6,7 +6,7 @@ const SeasonRepository = require("../repositories/seasonRepository");
 class MatchupService {
 
   static async getThisWeeksMatchups() {
-    let weekId = 30;
+    let weekId = 22;
     const matchups = await MatchupsRepository.getAllInWeek(weekId);
 
     return matchups;
@@ -131,7 +131,7 @@ static async getWeeklySummary() {
       week: lastMatchup.Week.week,
       season: lastMatchup.Week.Season.year,
       matchupType: lastMatchup.MatchupType.name,
-      winningTeam: winningTeam.Team.name,
+      winningTeam: winningTeam.Team.Manager.slackId,
       score: `${scores[0]} - ${scores[1]}`
     }
 
@@ -141,9 +141,9 @@ static async getWeeklySummary() {
   static getWinningTeam(team1Results, team2Results) {
     var winningTeam = null;
     if (parseFloat(team1Results.wins) > parseFloat(team2Results.wins)) {
-        winningTeam = team1Results.TeamName;
-    } else {
-      winningTeam = team2Results.TeamName;
+        winningTeam = team1Results.ManagerName;
+    } else if (parseFloat(team1Results.wins) < parseFloat(team2Results.wins)) {
+      winningTeam = team2Results.ManagerName;
     }
 
     return winningTeam;
@@ -152,9 +152,9 @@ static async getWeeklySummary() {
   static getHighScoringTeam(team1Results, team2Results) {
     var highScoreTeamId = null;
     if (parseFloat(team1Results.score) > parseFloat(team2Results.score)) {
-        highScoreTeamId = team1Results.TeamName;
-    } else {
-        highScoreTeamId = team2Results.TeamName;
+        highScoreTeamId = team1Results.ManagerName;
+    } else if (parseFloat(team1Results.score) < parseFloat(team2Results.score)) {
+        highScoreTeamId = team2Results.ManagerName;
     }
 
     return highScoreTeamId;
@@ -206,6 +206,7 @@ static async getWeeklySummary() {
     if (countLosses) {
       var result = {
         TeamName: teamResults[0].Team.name,
+        ManagerName: teamResults[0].Team.Manager.slackId,
         wins: this.countWins(teamResults),
         losses: this.countLosses(teamResults),
         score: this.sumScore(teamResults)

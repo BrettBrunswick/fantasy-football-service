@@ -138,7 +138,11 @@ class MatchupsRepository {
                 attributes: ['TeamId', 'won', 'score'],
                 include:[{
                   model: models.Team,
-                  attributes: ['name']
+                  attributes: ['name'],
+                  include: [{
+                    model: models.Manager,
+                    attributes: ['slackId']
+                  }]
                 }]
               }
             ],
